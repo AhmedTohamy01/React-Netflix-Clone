@@ -1,9 +1,10 @@
 import React from "react";
+import HeaderWrapper from "../components/Header/HeaderWrapper"
 
 function HeaderCompound({children}) {
 
   return (
-    <div>Header Compound</div>
+    <HeaderWrapper>Header Wrapper</HeaderWrapper>
   )
 }
 
