@@ -1,8 +1,9 @@
 import React from "react";
+import HeaderCompound from "../compounds/HeaderCompound";
 
 function HomePage() {
   return (
- <div>Home Page</div>
+    <HeaderCompound />
   )
 }
 
