@@ -19,3 +19,15 @@ a {
   box-sizing: border-box;
 }
 
+/* ############### Header Section ############### */
+
+.header-wrapper-home {
+  /* border: solid red; */
+  background: url("../images/misc/home-bg.jpg");
+  background-position: top left;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 30px 50px;
+}
+
+

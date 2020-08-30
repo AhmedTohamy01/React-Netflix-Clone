@@ -4,7 +4,9 @@ import HeaderWrapper from "../components/Header/HeaderWrapper"
 function HeaderCompound({children}) {
 
   return (
-    <HeaderWrapper>Header Wrapper</HeaderWrapper>
+    <HeaderWrapper className="header-wrapper-home">
+      Header Wrapper
+    </HeaderWrapper>
   )
 }
 
