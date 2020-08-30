@@ -5,7 +5,7 @@ import logo from "./logo.svg";
 function Logo({children, ...restProps}) {
   return (
     <div>
-    <a href="/" {...restProps}>{children}<img className="logo" src={logo}/></a>
+    <a href="/" {...restProps}>{children}<img className="logo" src={logo} alt="logo"/></a>
     </div>
   )
 }
