@@ -1,11 +1,13 @@
 import React from "react";
 import HeaderWrapper from "../components/Header/HeaderWrapper"
+import NavBar from "../components/Header/NavBar";
 
 function HeaderCompound({children}) {
 
   return (
     <HeaderWrapper className="header-wrapper-home">
-      Header Wrapper
+      <NavBar className="navbar-home">
+      </NavBar>
     </HeaderWrapper>
   )
 }
