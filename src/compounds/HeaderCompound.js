@@ -2,6 +2,7 @@ import React from "react";
 import HeaderWrapper from "../components/Header/HeaderWrapper"
 import NavBar from "../components/Header/NavBar";
 import Logo from "../components/Header/Logo";
+import SigninButton from "../components/Header/SigninButton";
 
 function HeaderCompound({children}) {
 
