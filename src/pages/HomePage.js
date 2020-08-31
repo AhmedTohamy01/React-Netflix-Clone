@@ -3,7 +3,9 @@ import HeaderCompound from "../compounds/HeaderCompound";
 
 function HomePage() {
   return (
-    <HeaderCompound />
+    <HeaderCompound>
+      <OptFormCompound />
+    </HeaderCompound>
   )
 }
 
