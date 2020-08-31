@@ -3,7 +3,9 @@ import HeaderWrapper from "../components/Header/HeaderWrapper"
 import NavBar from "../components/Header/NavBar";
 import Logo from "../components/Header/Logo";
 import SigninButton from "../components/Header/SigninButton";
-import FeatureWrapper from "../components/Feature/FeatureWrapper";
+import FeatureWrapper from "../components/Header/FeatureWrapper";
+import FeatureTitle from "../components/Header/FeatureTitle";
+
 
 function HeaderCompound({children}) {
 
@@ -14,6 +16,7 @@ function HeaderCompound({children}) {
         <SigninButton>Sign In</SigninButton>
       </NavBar>
       <FeatureWrapper className="feature-wrapper-home">
+        <FeatureTitle className="feature-title-home" >Unlimited movies, TV shows and more.</FeatureTitle>
       </FeatureWrapper>
       {children}
     </HeaderWrapper>
