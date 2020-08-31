@@ -36,3 +36,16 @@ a {
   width: 108px;
 }
 
+.signin-button {
+  /* border: solid yellow; */
+  display: block;
+  background-color: #e50914;
+  width: 84px;
+  height: fit-content;
+  color: white;
+  border: 0px;
+  font-size: 15px;
+  border-radius: 3px;
+  padding: 8px 17px;
+  cursor: pointer;
+}
