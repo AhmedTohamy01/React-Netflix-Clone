@@ -30,6 +30,17 @@ a {
   padding: 30px 50px;
 }
 
+.navbar-home {
+  /* border: solid green; */
+  max-width: 1850px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 175px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
 .logo {
   /* border: solid yellow; */
   height: 32px;
