@@ -30,4 +30,9 @@ a {
   padding: 30px 50px;
 }
 
+.logo {
+  /* border: solid yellow; */
+  height: 32px;
+  width: 108px;
+}
 
