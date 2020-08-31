@@ -30,6 +30,14 @@ a {
   padding: 30px 50px;
 }
 
+
+@media (max-width: 550px) {
+  .header-wrapper-home {
+    padding: 15px 20px;
+    height: 550px;
+  }
+}
+
 .navbar-home {
   /* border: solid green; */
   max-width: 1850px;
@@ -39,6 +47,12 @@ a {
   margin-bottom: 175px;
   margin-right: auto;
   margin-left: auto;
+}
+
+@media (max-width: 550px) {
+  .navbar-home {
+    margin-bottom: 100px;
+  }
 }
 
 .logo {
@@ -78,6 +92,11 @@ a {
   margin: auto;
 }
 
+@media (max-width: 550px) {
+  .feature-title-home {
+      font-size: 30px;
+    }
+  }
 
 .feature-subtitle-home {
   /* border: solid yellow; */
@@ -87,6 +106,11 @@ a {
   margin: 16px auto;
 }
 
+@media (max-width: 550px) {
+  .feature-subtitle-home {
+    font-size: 18px;
+  }
+}
 
 /* ############### OptForm Section ############### */
 
@@ -97,6 +121,14 @@ a {
   margin-top: 20px;
   margin-bottom: 70px;
 
+}
+
+@media (max-width: 950px) {
+  .optform-wrapper {
+    /* padding: 0px 30px; */
+    flex-direction: column;
+    align-items: center;
+  }
 }
 
 .optform-email {
@@ -122,6 +154,15 @@ a {
   cursor: pointer;
   display: flex;
   align-items: center;
+}
+
+@media (max-width: 950px) {
+  .optform-button {
+    height: 50px;
+    font-size: 16px;
+    margin-top: 20px;
+    font-weight: bold;
+  }
 }
 
 .optform-button-image {
