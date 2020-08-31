@@ -60,3 +60,29 @@ a {
   padding: 8px 17px;
   cursor: pointer;
 }
+
+
+/* ############### Feature Section ############### */
+
+.feature-wrapper-home {
+  /* border: solid green; */
+  text-align: center;
+}
+
+.feature-title-home {
+  /* border: solid yellow; */
+  color: white;
+  max-width: 640px;
+  font-size: 50px;
+  font-weight: 700;
+  margin: auto;
+}
+
+
+.feature-subtitle-home {
+  /* border: solid yellow; */
+  color: white;
+  font-size: 26px;
+  font-weight: normal;
+  margin: 16px auto;
+}
