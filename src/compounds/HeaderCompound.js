@@ -9,7 +9,9 @@ function HeaderCompound({children}) {
     <HeaderWrapper className="header-wrapper-home">
       <NavBar className="navbar-home">
         <Logo />
+        <SigninButton>Sign In</SigninButton>
       </NavBar>
+      {children}
     </HeaderWrapper>
   )
 }
