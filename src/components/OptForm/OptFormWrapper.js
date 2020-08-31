@@ -1,9 +1,9 @@
 import React from "react";
 
-function EmailFormWrapper({children, ...restProps}) {
+function OptFormWrapper({children, ...restProps}) {
   return (
     <div className="optform-wrapper" {...restProps}>{children}</div>
   )
 }
 
-export default EmailFormWrapper;
+export default OptFormWrapper;
