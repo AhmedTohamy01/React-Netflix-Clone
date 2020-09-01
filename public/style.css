@@ -182,3 +182,93 @@ a {
   text-align: center;
   padding: 0px 20px;
 }
+
+/* ############### Jumbotron Section ############### */
+
+/* .jumbo-wrapper {
+  border: solid yellow;
+} */
+
+.jumbo-item {
+  /* border: solid yellowgreen; */
+  padding: 70px 5%;
+  max-width: 1100px;
+  margin: auto;
+  display: flex;
+  justify-content: flex-end;
+
+}
+
+@media (max-width: 950px) {
+  .jumbo-item {
+  flex-direction: column;
+}
+}
+
+/* .jumbo-textwrapper {
+  border: solid red;
+} */
+
+.jumbo-title {
+  /* border: solid white; */
+  font-size: 3rem;
+  line-height: 1.1;
+  margin-bottom: 8px;
+  padding-right: 100px;
+}
+
+@media (max-width: 950px) {
+  .jumbo-title {
+    font-size: 2.5rem;
+    text-align: center;
+    padding-right: initial;
+
+  }
+}
+
+@media (max-width: 550px) {
+  .jumbo-title {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+}
+
+.jumbo-subtitle {
+  /* border: solid white; */
+  font-size: 1.5rem;
+  font-weight: normal;
+  line-height: normal;
+  padding-right: 100px;
+
+}
+
+@media (max-width: 950px) {
+  .jumbo-subtitle {
+    font-size: 1.25rem;
+    text-align: center;
+    padding-right: initial;
+
+  }
+}
+
+@media (max-width: 550px) {
+  .jumbo-subtitle {
+    font-size: 1.2rem;
+    text-align: center;
+  }
+}
+
+/* .jumbo-imagewrapper {
+  border: solid red;
+} */
+
+@media (max-width: 950px) {
+  .jumbo-imagewrapper {
+    text-align: center;
+  }
+}
+
+.jumbo-image {
+  max-width: 100%;
+  height: auto;
+}

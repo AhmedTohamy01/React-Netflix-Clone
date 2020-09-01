@@ -12,11 +12,11 @@ function JumboCompound() {
     <JumboWrapper>
       <JumboItem>
         <JumboTextWrapper>
-          <JumboTitle></JumboTitle>
-          <JumboSubTitle></JumboSubTitle>
+          <JumboTitle>Enjoy on your TV</JumboTitle>
+          <JumboSubTitle>Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray players and more.</JumboSubTitle>
         </JumboTextWrapper>
         <JumboImageWrapper>
-          <JumboImage></JumboImage>
+          <JumboImage src="/images/misc/home-tv.jpg" alt="Tiger King on Netflix"></JumboImage>
         </JumboImageWrapper>
       </JumboItem>
     </JumboWrapper>
