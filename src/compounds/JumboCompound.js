@@ -2,8 +2,9 @@ import React from "react";
 
 function JumboCompound() {
   return (
-        <>
-        </>
+    <JumboWrapper>
+      
+    </JumboWrapper>
   )
 }
 
