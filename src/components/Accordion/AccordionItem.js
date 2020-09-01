@@ -1,8 +1,12 @@
-import React from "react";
+import React, { useState } from "react";
+import AccordionContext from "./AccordionContext";
 
 function AccordionItem({children, ...restProps}) {
+  const [AccordionShow, setAccordionShow] = useState(false);
   return (
-    <div className="accordion-item" {...restProps}>{children}</div>
+    <AccordionContext.Provider value={[AccordionShow, setAccordionShow]} {...restProps}>
+    <div className="accordion-item">{children}</div>
+    </AccordionContext.Provider>
   )
 }
 
