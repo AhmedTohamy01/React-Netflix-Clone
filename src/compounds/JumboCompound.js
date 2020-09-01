@@ -6,19 +6,24 @@ import JumboTitle from "../components/Jumbotron/JumboTitle";
 import JumboSubTitle from "../components/Jumbotron/JumboSubTitle";
 import JumboImageWrapper from "../components/Jumbotron/JumboImageWrapper";
 import JumboImage from "../components/Jumbotron/JumboImage";
+import JumboData from "../data/jumbo.json"
 
 function JumboCompound() {
   return (
     <JumboWrapper>
-      <JumboItem>
-        <JumboTextWrapper>
-          <JumboTitle>Enjoy on your TV</JumboTitle>
-          <JumboSubTitle>Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray players and more.</JumboSubTitle>
-        </JumboTextWrapper>
-        <JumboImageWrapper>
-          <JumboImage src="/images/misc/home-tv.jpg" alt="Tiger King on Netflix"></JumboImage>
-        </JumboImageWrapper>
-      </JumboItem>
+      {JumboData.map((item) => (
+        <>
+        <JumboItem key={item.id}>
+          <JumboTextWrapper>
+            <JumboTitle>{item.title}</JumboTitle>
+            <JumboSubTitle>{item.subTitle}</JumboSubTitle>
+          </JumboTextWrapper>
+          <JumboImageWrapper>
+            <JumboImage src={item.image} alt={item.alt}/>
+          </JumboImageWrapper>
+        </JumboItem>
+        </>
+      ))}
     </JumboWrapper>
   )
 }
