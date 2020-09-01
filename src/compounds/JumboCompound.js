@@ -5,6 +5,7 @@ import JumboTextWrapper from "../components/Jumbotron/JumpoTextWrapper";
 import JumboTitle from "../components/Jumbotron/JumboTitle";
 import JumboSubTitle from "../components/Jumbotron/JumboSubTitle";
 import JumboImageWrapper from "../components/Jumbotron/JumboImageWrapper";
+import JumboImage from "../components/Jumbotron/JumboImage";
 
 function JumboCompound() {
   return (
@@ -15,7 +16,7 @@ function JumboCompound() {
           <JumboSubTitle></JumboSubTitle>
         </JumboTextWrapper>
         <JumboImageWrapper>
-
+          <JumboImage></JumboImage>
         </JumboImageWrapper>
       </JumboItem>
     </JumboWrapper>
