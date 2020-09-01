@@ -4,7 +4,7 @@ import React from "react";
 function AccordionBody({children, ...restProps}) {
 
   return (
-    <div {...restProps}>{children}</div>
+    <div className="accordion-body" {...restProps}>{children}</div>
   )
 }
 

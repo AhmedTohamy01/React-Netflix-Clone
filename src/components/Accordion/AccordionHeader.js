@@ -4,7 +4,7 @@ import React from "react";
 function AccordionHeader({children, ...restProps}) {
 
   return (
-    <div {...restProps}>{children}</div>
+    <div className="accordion-header" {...restProps}>{children}</div>
   )
 }
 
