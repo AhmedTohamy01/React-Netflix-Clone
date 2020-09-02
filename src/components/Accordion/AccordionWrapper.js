@@ -2,7 +2,7 @@ import React from "react";
 
 function AccordionWrapper({children, ...restProps}) {
   return (
-    <div className="accordion-wrapper" {...restProps}>{children}</div>
+    <section className="accordion-wrapper" {...restProps}>{children}</section>
   )
 }
 
