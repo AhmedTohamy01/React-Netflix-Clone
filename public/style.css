@@ -1,11 +1,26 @@
 
+/* ############### Table Of Contents ############### */
+
+/* Global Styles Section */
+
+/* Header Section */
+
+/* Feature Section */
+
+/* OptForm Section */
+
+/* Seperator Section */
+
+/* Accordion Section */
+
+
 /* ############### Global Styles Section ############### */
 
 
 html, body {
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   background-color: #000000;
-  color: white;
+  color: #ffffff;
   font-size: 16px;
   margin: 0;
 }
@@ -22,7 +37,6 @@ a {
 /* ############### Header Section ############### */
 
 .header-wrapper-home {
-  /* border: solid red; */
   background: url("../images/misc/home-bg.jpg");
   background-position: top left;
   background-size: cover;
@@ -39,7 +53,6 @@ a {
 }
 
 .navbar-home {
-  /* border: solid green; */
   max-width: 1850px;
   width: 100%;
   display: flex;
@@ -56,18 +69,16 @@ a {
 }
 
 .logo {
-  /* border: solid yellow; */
   height: 32px;
   width: 108px;
 }
 
 .signin-button {
-  /* border: solid yellow; */
   display: block;
   background-color: #e50914;
   width: 84px;
   height: fit-content;
-  color: white;
+  color: #ffffff;
   border: 0px;
   font-size: 15px;
   border-radius: 3px;
@@ -79,13 +90,11 @@ a {
 /* ############### Feature Section ############### */
 
 .feature-wrapper-home {
-  /* border: solid green; */
   text-align: center;
 }
 
 .feature-title-home {
-  /* border: solid yellow; */
-  color: white;
+  color: #ffffff;
   max-width: 640px;
   font-size: 50px;
   font-weight: 700;
@@ -99,8 +108,7 @@ a {
   }
 
 .feature-subtitle-home {
-  /* border: solid yellow; */
-  color: white;
+  color: #ffffff;
   font-size: 26px;
   font-weight: normal;
   margin: 16px auto;
@@ -115,7 +123,6 @@ a {
 /* ############### OptForm Section ############### */
 
 .optform-wrapper {
-  /* border: solid red; */
   display: flex;
   justify-content: center;
   margin-top: 20px;
@@ -125,14 +132,12 @@ a {
 
 @media (max-width: 950px) {
   .optform-wrapper {
-    /* padding: 0px 30px; */
     flex-direction: column;
     align-items: center;
   }
 }
 
 .optform-email {
-  /* border: solid yellow; */
   max-width: 450px;
   width: 100%;
   border: 0px;
@@ -142,11 +147,10 @@ a {
 }
 
 .optform-button {
-  /* border: solid yellow; */
   width: fit-content;
   height: 60px;
   background: #e50914;
-  color: white;
+  color: #ffffff;
   text-transform: uppercase;
   padding: 0 32px;
   font-size: 26px;
@@ -176,21 +180,15 @@ a {
 }
 
 .optform-text {
-  /* border: solid yellow; */
   font-size: 19px;
-  color: white;
+  color: #ffffff;
   text-align: center;
   padding: 0px 20px;
 }
 
 /* ############### Jumbotron Section ############### */
 
-/* .jumbo-wrapper {
-  border: solid yellow;
-} */
-
 .jumbo-item {
-  /* border: solid yellowgreen; */
   padding: 70px 5%;
   max-width: 1100px;
   margin: auto;
@@ -205,12 +203,7 @@ a {
 }
 }
 
-/* .jumbo-textwrapper {
-  border: solid red;
-} */
-
 .jumbo-title {
-  /* border: solid white; */
   font-size: 3rem;
   line-height: 1.1;
   margin-bottom: 8px;
@@ -234,7 +227,6 @@ a {
 }
 
 .jumbo-subtitle {
-  /* border: solid white; */
   font-size: 1.5rem;
   font-weight: normal;
   line-height: normal;
@@ -258,10 +250,6 @@ a {
   }
 }
 
-/* .jumbo-imagewrapper {
-  border: solid red;
-} */
-
 @media (max-width: 950px) {
   .jumbo-imagewrapper {
     text-align: center;
@@ -282,7 +270,6 @@ a {
 /* ############### Accordion Section ############### */
 
 .accordion-wrapper {
-  /* border: solid red; */
   max-width: 815px;
   margin: auto;
   padding: 70px 45px;
@@ -304,7 +291,7 @@ a {
   line-height: 1.1;
   margin-top: 0;
   margin-bottom: 50px;
-  color: white;
+  color: #ffffff;
   text-align: center;
 }
 
@@ -315,12 +302,10 @@ a {
 }
 
 .accordion-item {
-  /* border: solid yellow; */
   margin-bottom: 10px;
 }
 
 .accordion-header {
-  /* border: solid white; */
   background: #303030;
   font-size: 26px;
   font-weight: normal;
@@ -336,7 +321,6 @@ a {
 }
 
 .accordion-body {
-  /* border: solid white; */
   background: #303030;
   font-size: 26px;
   font-weight: normal;
@@ -365,7 +349,6 @@ a {
 /* ############### Footer Section ############### */
 
 .footer-wrapper {
-  /* border: solid red; */
   max-width: 1000px;
   margin: auto;
   padding: 70px 56px;
