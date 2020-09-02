@@ -2,7 +2,7 @@ import React from "react";
 
 function NavBar({children, ...restProps}) {
   return (
-    <div {...restProps}>{children}</div>
+    <nav {...restProps}>{children}</nav>
   )
 }
 
