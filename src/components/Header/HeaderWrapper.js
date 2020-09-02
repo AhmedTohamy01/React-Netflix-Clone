@@ -2,7 +2,7 @@ import React from "react";
 
 function HeaderWrapper({children, ...restProps}) {
   return (
-    <div {...restProps}>{children}</div>
+    <header {...restProps}>{children}</header>
   )
 }
 
