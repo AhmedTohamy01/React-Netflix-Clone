@@ -7,6 +7,7 @@ import SignFormWrapper from "../components/SignForm/SignFormWrapper";
 import SignFormBase from "../components/SignForm/SignFormBase";
 import SignFormTitle from "../components/SignForm/SignFormTitle";
 import SignFormInput from "../components/SignForm/SignFormInput";
+import SignFormButton from "../components/SignForm/SignFormButton";
 
 function SigninPage() {
 
@@ -30,6 +31,7 @@ function SigninPage() {
           autoComplete="off"
           >
           </SignFormInput> 
+          <SignFormButton>Sign In</SignFormButton> 
         </SignFormBase>
       </SignFormWrapper>
     </HeaderWrapper>
