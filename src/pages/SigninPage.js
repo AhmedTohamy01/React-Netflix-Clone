@@ -39,7 +39,9 @@ function SigninPage() {
             New to Netflix?
             <SignFormLink href="/signup">Sign up now.</SignFormLink>
           </SignFormText>
-          <SignFormCaptcha>This page is protected by Google reCAPTCHA.</SignFormCaptcha>
+          <SignFormCaptcha>
+            This page is protected by Google reCAPTCHA to ensure you're not a bot.
+          </SignFormCaptcha>
         </SignFormBase>
       </SignFormWrapper>
     </HeaderWrapper>

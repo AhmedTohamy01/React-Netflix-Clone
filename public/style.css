@@ -445,7 +445,7 @@ a {
 
 .sign-form-text {
   /* border: solid white; */
-  color: #8b7171;
+  color: #8c8c8c;
   font-size: 16px;
   font-weight: 500;
 }
@@ -456,8 +456,17 @@ a {
   margin-right: 30px;
   cursor: pointer;
   text-decoration: none;
+  margin-left: 5px;
 }
 
 .sign-form-link:hover {
   text-decoration: underline;
+}
+
+.sign-form-captcha {
+  /* border: solid white; */
+  margin-top: 10px;
+  font-size: 13px;
+  line-height: normal;
+  color: #8c8c8c;
 }
