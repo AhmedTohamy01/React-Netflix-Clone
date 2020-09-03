@@ -1,0 +1,390 @@
+
+/* ############### Table Of Contents ############### */
+
+/* Global Styles Section */
+
+/* Header Section */
+
+/* Feature Section */
+
+/* OptForm Section */
+
+/* Seperator Section */
+
+/* Accordion Section */
+
+/* ############### Global Styles Section ############### */
+
+html,
+body {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  background-color: #000;
+  color: #fff;
+  font-size: 16px;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* ############### Header Section ############### */
+
+.header-wrapper-home {
+  background: url("../images/misc/home-bg.jpg");
+  background-position: top left;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 30px 50px;
+}
+
+@media (max-width: 550px) {
+  .header-wrapper-home {
+    padding: 15px 20px;
+    height: 550px;
+  }
+}
+
+.navbar-home {
+  max-width: 1850px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 175px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media (max-width: 550px) {
+  .navbar-home {
+    margin-bottom: 100px;
+  }
+}
+
+.logo {
+  height: 32px;
+  width: 108px;
+}
+
+.signin-button {
+  display: block;
+  background-color: #e50914;
+  width: 84px;
+  height: fit-content;
+  color: #fff;
+  border: 0;
+  font-size: 15px;
+  border-radius: 3px;
+  padding: 8px 17px;
+  cursor: pointer;
+}
+
+/* ############### Feature Section ############### */
+
+.feature-wrapper-home {
+  text-align: center;
+}
+
+.feature-title-home {
+  color: #fff;
+  max-width: 640px;
+  font-size: 50px;
+  font-weight: 700;
+  margin: auto;
+}
+
+@media (max-width: 550px) {
+  .feature-title-home {
+    font-size: 30px;
+  }
+}
+
+.feature-subtitle-home {
+  color: #fff;
+  font-size: 26px;
+  font-weight: normal;
+  margin: 16px auto;
+}
+
+@media (max-width: 550px) {
+  .feature-subtitle-home {
+    font-size: 18px;
+  }
+}
+
+/* ############### OptForm Section ############### */
+
+.optform-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 70px;
+}
+
+@media (max-width: 950px) {
+  .optform-wrapper {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.optform-email {
+  max-width: 450px;
+  width: 100%;
+  border: 0;
+  padding: 10px;
+  height: 60px;
+  font-size: 20px;
+}
+
+.optform-button {
+  width: fit-content;
+  height: 60px;
+  background: #e50914;
+  color: #fff;
+  text-transform: uppercase;
+  padding: 0 32px;
+  font-size: 26px;
+  border: 0;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+@media (max-width: 950px) {
+  .optform-button {
+    height: 50px;
+    font-size: 16px;
+    margin-top: 20px;
+    font-weight: bold;
+  }
+}
+
+.optform-button-image {
+  margin-left: 10px;
+  filter: brightness(0) invert(1);
+  width: 24px;
+}
+
+.optform-button-image img:hover {
+  background: #f40612;
+}
+
+.optform-text {
+  font-size: 19px;
+  color: #fff;
+  text-align: center;
+  padding: 0 20px;
+}
+
+/* ############### Jumbotron Section ############### */
+
+.jumbo-item {
+  padding: 70px 5%;
+  max-width: 1100px;
+  margin: auto;
+  display: flex;
+  justify-content: flex-end;
+}
+
+@media (max-width: 950px) {
+  .jumbo-item {
+    flex-direction: column;
+  }
+}
+
+.jumbo-title {
+  font-size: 3rem;
+  line-height: 1.1;
+  margin-bottom: 8px;
+  padding-right: 100px;
+}
+
+@media (max-width: 950px) {
+  .jumbo-title {
+    font-size: 2.5rem;
+    text-align: center;
+    padding-right: initial;
+  }
+}
+
+@media (max-width: 550px) {
+  .jumbo-title {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+}
+
+.jumbo-subtitle {
+  font-size: 1.5rem;
+  font-weight: normal;
+  line-height: normal;
+  padding-right: 100px;
+}
+
+@media (max-width: 950px) {
+  .jumbo-subtitle {
+    font-size: 1.25rem;
+    text-align: center;
+    padding-right: initial;
+  }
+}
+
+@media (max-width: 550px) {
+  .jumbo-subtitle {
+    font-size: 1.2rem;
+    text-align: center;
+  }
+}
+
+@media (max-width: 950px) {
+  .jumbo-imagewrapper {
+    text-align: center;
+  }
+}
+
+.jumbo-image {
+  max-width: 100%;
+  height: auto;
+}
+
+/* ############### Seperator Section ############### */
+
+.seperator {
+  border: 4px solid #222;
+}
+
+/* ############### Accordion Section ############### */
+
+.accordion-wrapper {
+  max-width: 815px;
+  margin: auto;
+  padding: 70px 45px;
+  display: flex;
+  flex-direction: column;
+}
+
+@media (max-width: 550px) {
+  .accordion-wrapper {
+    max-width: initial;
+    padding: 70px 0;
+  }
+}
+
+.accordion-title {
+  font-size: 50px;
+  line-height: 1.1;
+  margin-top: 0;
+  margin-bottom: 50px;
+  color: #fff;
+  text-align: center;
+}
+
+@media (max-width: 550px) {
+  .accordion-title {
+    font-size: 25px;
+  }
+}
+
+.accordion-item {
+  margin-bottom: 10px;
+}
+
+.accordion-header {
+  background: #303030;
+  font-size: 26px;
+  font-weight: normal;
+  padding: 0.8em 1.2em 0.8em 1.2em;
+  margin-bottom: 1px;
+  cursor: pointer;
+}
+
+@media (max-width: 550px) {
+  .accordion-header {
+    font-size: 20px;
+  }
+}
+
+.accordion-body {
+  background: #303030;
+  font-size: 26px;
+  font-weight: normal;
+  padding: 0.8em 1.2em 0.8em 1.2em;
+}
+
+@media (max-width: 550px) {
+  .accordion-body {
+    font-size: 20px;
+  }
+}
+
+.accordion-image {
+  filter: brightness(0) invert(1);
+  width: 24px;
+  float: right;
+}
+
+@media (max-width: 550px) {
+  .accordion-image {
+    width: 16px;
+  }
+}
+
+/* ############### Footer Section ############### */
+
+.footer-wrapper {
+  max-width: 1000px;
+  margin: auto;
+  padding: 70px 56px;
+}
+
+.footer-title {
+  font-size: 16px;
+  color: #757575;
+  margin-bottom: 50px;
+}
+
+@media (max-width: 740px) {
+  .footer-wrapper {
+    padding: 70px 30px;
+  }
+}
+
+@media (max-width: 500px) {
+  .footer-wrapper {
+    padding: 70px 15px;
+  }
+}
+
+.footer-row {
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+@media screen and (max-width: 740px) {
+  .footer-row {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .footer-row {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.footer-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-link {
+  color: #757575;
+  margin-bottom: 20px;
+  font-size: 13px;
+}
