@@ -14,7 +14,7 @@ import SignFormText from '../components/SignForm/SignFormText';
 import SignFormLink from '../components/SignForm/SignFormLink';
 import SignFormCaptcha from '../components/SignForm/SignFormCaptcha';
 
-function SigninPage() {
+function SignupPage() {
   const history = useHistory();
   const { firebase } = useContext(FirebaseContext);
 
@@ -44,7 +44,7 @@ function SigninPage() {
         </NavBar>
         <SignFormWrapper>
           <SignFormBase onSubmit={handleSubmit} method="POST">
-            <SignFormTitle>Sign In</SignFormTitle>
+            <SignFormTitle>Sign Up</SignFormTitle>
             <SignFormInput
               type="text" 
               placeholder="First Name"
@@ -66,7 +66,7 @@ function SigninPage() {
             />
             <SignFormButton disabled={IsInvalid}>Sign In</SignFormButton>
             <SignFormText>
-              New to Netflix?
+              Already a user?
               <SignFormLink href="/signup">Sign up now.</SignFormLink>
             </SignFormText>
             <SignFormCaptcha>
@@ -80,4 +80,4 @@ function SigninPage() {
   );
 }
 
-export default SigninPage;
+export default SignupPage;
