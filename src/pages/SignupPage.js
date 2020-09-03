@@ -28,13 +28,20 @@ function SignupPage() {
     event.preventDefault();
 
     firebase.auth()
-      .signInWithEmailAndPassword(emailAddress, password)
-      .then(() => {
-        setEmailAddress('');
-        setPassword('');
-        history.push('/browse');
-      });
-  }
+    .createUserWithEmailAndPassword(emailAddress, password)
+    .then((result) =>
+        result.user
+        .updateProfile({
+            displayName: firstName,
+        })
+        .then(() => {
+          setFirstName('');
+          setEmailAddress('');
+          setPassword('');
+          history.push("/browse");
+        })
+    );  
+  };
 
   return (
     <>
