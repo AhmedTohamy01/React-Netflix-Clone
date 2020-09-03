@@ -6,6 +6,7 @@ import FooterCompound from "../compounds/FooterCompound";
 import SignFormWrapper from "../components/SignForm/SignFormWrapper";
 import SignFormBase from "../components/SignForm/SignFormBase";
 import SignFormTitle from "../components/SignForm/SignFormTitle";
+import SignFormInput from "../components/SignForm/SignFormInput";
 
 function SigninPage() {
 
@@ -18,7 +19,17 @@ function SigninPage() {
       <SignFormWrapper>
         <SignFormBase>
           <SignFormTitle>Sign In</SignFormTitle>
-
+          <SignFormInput 
+          type="text" 
+          placeholder="Email Address"
+          >
+          </SignFormInput>
+          <SignFormInput 
+          type="password"
+          placeholder="Password"
+          autoComplete="off"
+          >
+          </SignFormInput> 
         </SignFormBase>
       </SignFormWrapper>
     </HeaderWrapper>
