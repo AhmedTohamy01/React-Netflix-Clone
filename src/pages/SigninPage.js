@@ -4,6 +4,8 @@ import NavBar from "../components/Header/NavBar";
 import Logo from "../components/Header/Logo";
 import FooterCompound from "../compounds/FooterCompound";
 import SignFormWrapper from "../components/SignForm/SignFormWrapper";
+import SignFormBase from "../components/SignForm/SignFormBase";
+import SignFormTitle from "../components/SignForm/SignFormTitle";
 
 function SigninPage() {
 
@@ -15,6 +17,7 @@ function SigninPage() {
       </NavBar>
       <SignFormWrapper>
         <SignFormBase>
+          <SignFormTitle>Sign In</SignFormTitle>
 
         </SignFormBase>
       </SignFormWrapper>
