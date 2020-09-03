@@ -2,6 +2,7 @@ import React from "react";
 import HeaderWrapper from "../components/Header/HeaderWrapper";
 import NavBar from "../components/Header/NavBar";
 import Logo from "../components/Header/Logo";
+import FooterCompound from "../compounds/FooterCompound";
 
 function SigninPage() {
 
@@ -12,6 +13,7 @@ function SigninPage() {
         <Logo />
       </NavBar>
     </HeaderWrapper>
+    <FooterCompound />
     </>
   )
 }
