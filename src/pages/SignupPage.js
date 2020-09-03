@@ -18,6 +18,7 @@ function SigninPage() {
   const history = useHistory();
   const { firebase } = useContext(FirebaseContext);
 
+  const [firstName, setFirstName ] = useState("");
   const [emailAddress, setEmailAddress] = useState('');
   const [password, setPassword] = useState('');
 
@@ -44,6 +45,12 @@ function SigninPage() {
         <SignFormWrapper>
           <SignFormBase onSubmit={handleSubmit} method="POST">
             <SignFormTitle>Sign In</SignFormTitle>
+            <SignFormInput
+              type="text" 
+              placeholder="First Name"
+              value={firstName}
+              onChange={({target}) => setFirstName(target.value)}
+            />
             <SignFormInput
               type="text"
               placeholder="Email Address"
