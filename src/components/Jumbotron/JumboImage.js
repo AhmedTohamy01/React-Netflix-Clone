@@ -1,9 +1,9 @@
-import React from "react";
+import React from 'react';
 
-function JumboImage({...restProps}) {
+function JumboImage({ ...restProps }) {
   return (
-    <img className="jumbo-image" {...restProps} />
-  )
+    <img className="jumbo-image" alt="" {...restProps} />
+  );
 }
 
 export default JumboImage;

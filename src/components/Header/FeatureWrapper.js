@@ -1,9 +1,9 @@
-import React from "react";
+import React from 'react';
 
-function FeatureWrapper({children, ...restProps}) {
+function FeatureWrapper({ children, ...restProps }) {
   return (
     <div {...restProps}>{children}</div>
-  )
+  );
 }
 
 export default FeatureWrapper;

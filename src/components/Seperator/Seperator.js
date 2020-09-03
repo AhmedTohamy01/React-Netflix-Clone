@@ -1,9 +1,9 @@
-import React from "react";
+import React from 'react';
 
-function Seperator({children, ...restProps}) {
+function Seperator({ children, ...restProps }) {
   return (
-  <div className="seperator" {...restProps}>{children}</div>
-  )
+    <div className="seperator" {...restProps}>{children}</div>
+  );
 }
 
-export default Seperator; 
+export default Seperator;

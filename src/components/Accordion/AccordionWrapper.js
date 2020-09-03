@@ -1,9 +1,9 @@
-import React from "react";
+import React from 'react';
 
-function AccordionWrapper({children, ...restProps}) {
+function AccordionWrapper({ children, ...restProps }) {
   return (
     <section className="accordion-wrapper" {...restProps}>{children}</section>
-  )
+  );
 }
 
-export default AccordionWrapper
+export default AccordionWrapper;

@@ -1,10 +1,9 @@
-import React from "react";
+import React from 'react';
 
-function JumboImageWrapper({children, ...restProps}) {
+function JumboImageWrapper({ children, ...restProps }) {
   return (
-  <div className="jumbo-imagewrapper"{...restProps}>{children}</div>
-  )
+    <div className="jumbo-imagewrapper" {...restProps}>{children}</div>
+  );
 }
 
-
-export default JumboImageWrapper; 
+export default JumboImageWrapper;

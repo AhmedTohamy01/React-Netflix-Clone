@@ -1,9 +1,9 @@
-import React from "react";
-import FooterWrapper from "../components/Footer/FooterWrapper";
-import FooterTitle from "../components/Footer/FooterTitle";
-import FooterRow from "../components/Footer/FooterRow";
-import FooterColumn from "../components/Footer/FooterColumn";
-import FooterLink from "../components/Footer/FooterLink";
+import React from 'react';
+import FooterWrapper from '../components/Footer/FooterWrapper';
+import FooterTitle from '../components/Footer/FooterTitle';
+import FooterRow from '../components/Footer/FooterRow';
+import FooterColumn from '../components/Footer/FooterColumn';
+import FooterLink from '../components/Footer/FooterLink';
 
 function FooterCompound() {
   return (
@@ -35,7 +35,7 @@ function FooterCompound() {
         </FooterColumn>
       </FooterRow>
     </FooterWrapper>
-  )
+  );
 }
 
 export default FooterCompound;

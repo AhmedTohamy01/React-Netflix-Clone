@@ -1,9 +1,9 @@
-import React from "react";
+import React from 'react';
 
-function optFormEmail({...resProps}) {
+function optFormEmail({ ...resProps }) {
   return (
-    <input className="optform-email" {...resProps}></input>
-  )
+    <input className="optform-email" {...resProps} />
+  );
 }
 
 export default optFormEmail;

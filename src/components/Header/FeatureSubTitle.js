@@ -1,9 +1,9 @@
-import React from "react";
+import React from 'react';
 
-function FeatureSubTitle({children, ...restProps}) {
+function FeatureSubTitle({ children, ...restProps }) {
   return (
-    <h2 className="feature-subtitle"{...restProps}>{children}</h2>
-  )
+    <h2 className="feature-subtitle" {...restProps}>{children}</h2>
+  );
 }
 
 export default FeatureSubTitle;

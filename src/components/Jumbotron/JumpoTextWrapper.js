@@ -1,10 +1,9 @@
-import React from "react";
+import React from 'react';
 
-function JumboTextWrapper({children, ...restProps}) {
+function JumboTextWrapper({ children, ...restProps }) {
   return (
-  <div className="jumbo-textwrapper"{...restProps}>{children}</div>
-  )
+    <div className="jumbo-textwrapper" {...restProps}>{children}</div>
+  );
 }
 
-
-export default JumboTextWrapper; 
+export default JumboTextWrapper;
