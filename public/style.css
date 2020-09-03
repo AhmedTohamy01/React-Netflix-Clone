@@ -388,3 +388,27 @@ a {
   margin-bottom: 20px;
   font-size: 13px;
 }
+
+/* ############### SignForm Section ############### */
+
+.sign-form-wrapper {
+  /* border: solid red; */
+  display: flex;
+  flex-direction: column;
+  min-height: 660px;
+  background-color: rgba(0, 0, 0, 0.75);
+  border-radius: 5px;
+  width: 100%;
+  margin: auto;
+  max-width: 450px;
+  padding: 60px 68px 40px;
+  margin-bottom: 100px;
+}
+
+.sign-form-title {
+  /* border: solid white; */
+  color: #fff;
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 28px;
+}
