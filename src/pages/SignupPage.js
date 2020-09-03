@@ -64,7 +64,7 @@ function SignupPage() {
               value={password}
               onChange={({ target }) => setPassword(target.value)}
             />
-            <SignFormButton disabled={IsInvalid}>Sign In</SignFormButton>
+            <SignFormButton disabled={IsInvalid}>Sign Up</SignFormButton>
             <SignFormText>
               Already a user?
               <SignFormLink href="/signin">Sign in now.</SignFormLink>
