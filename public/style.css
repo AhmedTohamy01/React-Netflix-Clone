@@ -442,3 +442,22 @@ a {
   color: white;
   cursor: pointer;
 }
+
+.sign-form-text {
+  /* border: solid white; */
+  color: #8b7171;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.sign-form-link {
+  color: #fff;
+  text-decoration: none;
+  margin-right: 30px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.sign-form-link:hover {
+  text-decoration: underline;
+}
