@@ -18,30 +18,28 @@ function SignupPage() {
   const history = useHistory();
   const { firebase } = useContext(FirebaseContext);
 
-  const [firstName, setFirstName ] = useState("");
+  const [firstName, setFirstName] = useState('');
   const [emailAddress, setEmailAddress] = useState('');
   const [password, setPassword] = useState('');
 
-  const IsInvalid = password === '' || emailAddress === '' || firstName === "";
+  const IsInvalid = password === '' || emailAddress === '' || firstName === '';
 
   function handleSubmit(event) {
     event.preventDefault();
 
     firebase.auth()
-    .createUserWithEmailAndPassword(emailAddress, password)
-    .then((result) =>
-        result.user
+      .createUserWithEmailAndPassword(emailAddress, password)
+      .then(result => result.user
         .updateProfile({
-            displayName: firstName,
+          displayName: firstName,
         })
         .then(() => {
           setFirstName('');
           setEmailAddress('');
           setPassword('');
-          history.push("/browse");
-        })
-    );  
-  };
+          history.push('/browse');
+        }));
+  }
 
   return (
     <>
@@ -53,10 +51,10 @@ function SignupPage() {
           <SignFormBase onSubmit={handleSubmit} method="POST">
             <SignFormTitle>Sign Up</SignFormTitle>
             <SignFormInput
-              type="text" 
+              type="text"
               placeholder="First Name"
               value={firstName}
-              onChange={({target}) => setFirstName(target.value)}
+              onChange={({ target }) => setFirstName(target.value)}
             />
             <SignFormInput
               type="text"
