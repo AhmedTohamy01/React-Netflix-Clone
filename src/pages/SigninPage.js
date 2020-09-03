@@ -3,6 +3,7 @@ import HeaderWrapper from "../components/Header/HeaderWrapper";
 import NavBar from "../components/Header/NavBar";
 import Logo from "../components/Header/Logo";
 import FooterCompound from "../compounds/FooterCompound";
+import SignFormWrapper from "../components/SignForm/SignFormWrapper";
 
 function SigninPage() {
 
@@ -12,6 +13,10 @@ function SigninPage() {
       <NavBar className="navbar-home">
         <Logo />
       </NavBar>
+      <SignFormWrapper>
+
+      </SignFormWrapper>
+
     </HeaderWrapper>
     <FooterCompound />
     </>
