@@ -22,7 +22,7 @@ function SigninPage() {
   const [emailAddress, setEmailAddress] = useState('');
   const [password, setPassword] = useState('');
 
-  const IsInvalid = password === '' || emailAddress === '';
+  const IsInvalid = password === '' || emailAddress === '' || firstName === "";
 
   function handleSubmit(event) {
     event.preventDefault();
