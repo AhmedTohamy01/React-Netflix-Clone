@@ -49,7 +49,8 @@ a {
   }
 }
 
-.navbar-home {
+.navbar-home,
+.navbar-signin {
   max-width: 1850px;
   width: 100%;
   display: flex;
@@ -59,8 +60,13 @@ a {
   margin-left: auto;
 }
 
+.navbar-signin {
+  margin-bottom: 75px;
+}
+
 @media (max-width: 550px) {
-  .navbar-home {
+  .navbar-home,
+  .navbar-signin {
     margin-bottom: 100px;
   }
 }
