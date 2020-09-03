@@ -1,9 +1,9 @@
-import React from "react";
+import React from 'react';
 
-function SignFormCaptcha({children, ...restProps}) {
+function SignFormCaptcha({ children, ...restProps }) {
   return (
     <p className="sign-form-captcha" {...restProps}>{children}</p>
-  )
+  );
 }
 
-export default SignFormCaptcha
+export default SignFormCaptcha;

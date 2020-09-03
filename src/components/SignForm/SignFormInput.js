@@ -1,9 +1,9 @@
-import React from "react";
+import React from 'react';
 
-function SignFormInput({children, ...restProps}) {
+function SignFormInput({ ...restProps }) {
   return (
-    <input className="sign-form-input" {...restProps}>{children}</input>
-  )
+    <input className="sign-form-input" {...restProps} />
+  );
 }
 
-export default SignFormInput
+export default SignFormInput;
