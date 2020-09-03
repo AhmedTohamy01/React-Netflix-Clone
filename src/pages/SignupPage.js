@@ -67,7 +67,7 @@ function SignupPage() {
             <SignFormButton disabled={IsInvalid}>Sign In</SignFormButton>
             <SignFormText>
               Already a user?
-              <SignFormLink href="/signup">Sign up now.</SignFormLink>
+              <SignFormLink href="/signin">Sign in now.</SignFormLink>
             </SignFormText>
             <SignFormCaptcha>
               This page is protected by Google reCAPTCHA to ensure you are not a bot.
