@@ -10,6 +10,7 @@ import SignFormInput from "../components/SignForm/SignFormInput";
 import SignFormButton from "../components/SignForm/SignFormButton";
 import SignFormText from "../components/SignForm/SignFormText";
 import SignFormLink from "../components/SignForm/SignFormLink";
+import SignFormCaptcha from "../components/SignForm/SignFormCaptcha";
 
 function SigninPage() {
 
@@ -34,7 +35,11 @@ function SigninPage() {
           >
           </SignFormInput> 
           <SignFormButton>Sign In</SignFormButton> 
-          <SignFormText>New to Netflix? <SignFormLink href="/signup">Sign up now.</SignFormLink> </SignFormText>
+          <SignFormText>
+            New to Netflix?
+            <SignFormLink href="/signup">Sign up now.</SignFormLink>
+          </SignFormText>
+          <SignFormCaptcha>This page is protected by Google reCAPTCHA.</SignFormCaptcha>
         </SignFormBase>
       </SignFormWrapper>
     </HeaderWrapper>
