@@ -13,6 +13,10 @@
 
 /* Accordion Section */
 
+/* Footer Section */
+
+/* SignForm Section */
+
 /* ############### Global Styles Section ############### */
 
 html,
@@ -398,7 +402,6 @@ a {
 /* ############### SignForm Section ############### */
 
 .sign-form-wrapper {
-  /* border: solid red; */
   display: flex;
   flex-direction: column;
   min-height: 660px;
@@ -412,7 +415,6 @@ a {
 }
 
 .sign-form-title {
-  /* border: solid white; */
   color: #fff;
   font-size: 32px;
   font-weight: bold;
@@ -454,7 +456,6 @@ a {
 }
 
 .sign-form-text {
-  /* border: solid white; */
   color: #8c8c8c;
   font-size: 16px;
   font-weight: 500;
@@ -474,7 +475,6 @@ a {
 }
 
 .sign-form-captcha {
-  /* border: solid white; */
   margin-top: 10px;
   font-size: 13px;
   line-height: normal;
