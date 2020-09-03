@@ -1,5 +1,14 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
+import ReactDom from 'react-dom';
 import App from './App';
+import { FirebaseContext } from './context/FirbaseContext';
+import { firebase } from './lib/firebase.prod';
 
-ReactDOM.render(<App />, document.getElementById('root'));
+ReactDom.render(
+  <>
+    <FirebaseContext.Provider value={{ firebase }}>
+      <App />
+    </FirebaseContext.Provider>
+  </>,
+  document.getElementById('root'),
+);
