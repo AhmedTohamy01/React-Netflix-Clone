@@ -13,21 +13,19 @@
 
 /* Accordion Section */
 
-
 /* ############### Global Styles Section ############### */
 
-
-html, body {
+html,
+body {
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  background-color: #000000;
-  color: #ffffff;
+  background-color: #000;
+  color: #fff;
   font-size: 16px;
   margin: 0;
 }
 
 a {
   text-decoration: none;
-
 }
 
 * {
@@ -43,7 +41,6 @@ a {
   background-repeat: no-repeat;
   padding: 30px 50px;
 }
-
 
 @media (max-width: 550px) {
   .header-wrapper-home {
@@ -78,14 +75,13 @@ a {
   background-color: #e50914;
   width: 84px;
   height: fit-content;
-  color: #ffffff;
-  border: 0px;
+  color: #fff;
+  border: 0;
   font-size: 15px;
   border-radius: 3px;
   padding: 8px 17px;
   cursor: pointer;
 }
-
 
 /* ############### Feature Section ############### */
 
@@ -94,7 +90,7 @@ a {
 }
 
 .feature-title-home {
-  color: #ffffff;
+  color: #fff;
   max-width: 640px;
   font-size: 50px;
   font-weight: 700;
@@ -103,12 +99,12 @@ a {
 
 @media (max-width: 550px) {
   .feature-title-home {
-      font-size: 30px;
-    }
+    font-size: 30px;
   }
+}
 
 .feature-subtitle-home {
-  color: #ffffff;
+  color: #fff;
   font-size: 26px;
   font-weight: normal;
   margin: 16px auto;
@@ -127,7 +123,6 @@ a {
   justify-content: center;
   margin-top: 20px;
   margin-bottom: 70px;
-
 }
 
 @media (max-width: 950px) {
@@ -140,7 +135,7 @@ a {
 .optform-email {
   max-width: 450px;
   width: 100%;
-  border: 0px;
+  border: 0;
   padding: 10px;
   height: 60px;
   font-size: 20px;
@@ -150,11 +145,11 @@ a {
   width: fit-content;
   height: 60px;
   background: #e50914;
-  color: #ffffff;
+  color: #fff;
   text-transform: uppercase;
   padding: 0 32px;
   font-size: 26px;
-  border: 0px;
+  border: 0;
   cursor: pointer;
   display: flex;
   align-items: center;
@@ -181,9 +176,9 @@ a {
 
 .optform-text {
   font-size: 19px;
-  color: #ffffff;
+  color: #fff;
   text-align: center;
-  padding: 0px 20px;
+  padding: 0 20px;
 }
 
 /* ############### Jumbotron Section ############### */
@@ -194,13 +189,12 @@ a {
   margin: auto;
   display: flex;
   justify-content: flex-end;
-
 }
 
 @media (max-width: 950px) {
   .jumbo-item {
-  flex-direction: column;
-}
+    flex-direction: column;
+  }
 }
 
 .jumbo-title {
@@ -215,7 +209,6 @@ a {
     font-size: 2.5rem;
     text-align: center;
     padding-right: initial;
-
   }
 }
 
@@ -231,7 +224,6 @@ a {
   font-weight: normal;
   line-height: normal;
   padding-right: 100px;
-
 }
 
 @media (max-width: 950px) {
@@ -239,7 +231,6 @@ a {
     font-size: 1.25rem;
     text-align: center;
     padding-right: initial;
-
   }
 }
 
@@ -275,14 +266,12 @@ a {
   padding: 70px 45px;
   display: flex;
   flex-direction: column;
-
 }
 
 @media (max-width: 550px) {
   .accordion-wrapper {
     max-width: initial;
-    padding: 70px 0px;
-
+    padding: 70px 0;
   }
 }
 
@@ -291,7 +280,7 @@ a {
   line-height: 1.1;
   margin-top: 0;
   margin-bottom: 50px;
-  color: #ffffff;
+  color: #fff;
   text-align: center;
 }
 
@@ -337,13 +326,12 @@ a {
   filter: brightness(0) invert(1);
   width: 24px;
   float: right;
-  
 }
 
 @media (max-width: 550px) {
   .accordion-image {
-  width: 16px;
-}
+    width: 16px;
+  }
 }
 
 /* ############### Footer Section ############### */
@@ -362,14 +350,14 @@ a {
 
 @media (max-width: 740px) {
   .footer-wrapper {
-  padding: 70px 30px;
-}
+    padding: 70px 30px;
+  }
 }
 
 @media (max-width: 500px) {
   .footer-wrapper {
-  padding: 70px 15px;
-}
+    padding: 70px 15px;
+  }
 }
 
 .footer-row {
