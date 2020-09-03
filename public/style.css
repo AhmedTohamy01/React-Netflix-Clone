@@ -449,6 +449,10 @@ a {
   cursor: pointer;
 }
 
+.sign-form-Button:disabled {
+  opacity: 0.3;
+}
+
 .sign-form-text {
   /* border: solid white; */
   color: #8c8c8c;
