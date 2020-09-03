@@ -14,9 +14,10 @@ function SigninPage() {
         <Logo />
       </NavBar>
       <SignFormWrapper>
+        <SignFormBase>
 
+        </SignFormBase>
       </SignFormWrapper>
-
     </HeaderWrapper>
     <FooterCompound />
     </>
