@@ -8,6 +8,7 @@ import SignFormBase from "../components/SignForm/SignFormBase";
 import SignFormTitle from "../components/SignForm/SignFormTitle";
 import SignFormInput from "../components/SignForm/SignFormInput";
 import SignFormButton from "../components/SignForm/SignFormButton";
+import SignFormText from "../components/SignForm/SignFormText";
 
 function SigninPage() {
 
@@ -32,6 +33,7 @@ function SigninPage() {
           >
           </SignFormInput> 
           <SignFormButton>Sign In</SignFormButton> 
+          <SignFormText>New to Netflix?</SignFormText>
         </SignFormBase>
       </SignFormWrapper>
     </HeaderWrapper>
