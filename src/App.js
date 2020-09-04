@@ -17,6 +17,9 @@ function App() {
         <Route path="/signup">
           <SignupPage />
         </Route>
+        <Route path="/browse">
+          <BrowsePage />
+        </Route>
       </Switch>
     </Router>
   );
