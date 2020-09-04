@@ -12,6 +12,7 @@ import AllSlidesWrapper from "../components/Movies/AllSlidesWrapper";
 import SlideWrapper from "../components/Movies/SlideWrapper";
 import SlideTitle from "../components/Movies/SlideTitle";
 import AllCardsWrapper from "../components/Movies/AllCardsWrapper";
+import CardWrapper from "../components/Movies/CardWrapper";
 
 
 function BrowsePage() {
@@ -68,7 +69,9 @@ function BrowsePage() {
       <SlideWrapper>
         <SlideTitle>Drama</SlideTitle>
         <AllCardsWrapper>
-          
+          <CardWrapper>
+
+          </CardWrapper>
         </AllCardsWrapper>
       </SlideWrapper>
     </AllSlidesWrapper>
