@@ -143,15 +143,26 @@ a {
   }
 }
 
-.feature-subtitle-home {
-  color: #fff;
+.feature-subtitle-home,
+.feature-subtitle-browse {
+  /* border: solid yellow; */
+  color: white;
   font-size: 26px;
   font-weight: normal;
   margin: 16px auto;
 }
 
+.feature-subtitle-browse {
+  max-width: 640px;
+  margin: initial;
+  font-size: 22px;
+  line-height: normal;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.45);
+}
+
 @media (max-width: 550px) {
-  .feature-subtitle-home {
+  .feature-subtitle-home,
+  .feature-subtitle-browse {
     font-size: 18px;
   }
 }
