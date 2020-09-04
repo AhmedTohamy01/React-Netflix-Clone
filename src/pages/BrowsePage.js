@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import HeaderWrapper from "../components/Header/HeaderWrapper";
 import NavBar from "../components/Header/NavBar";
 import Logo from "../components/Header/Logo";
@@ -11,13 +11,23 @@ import HeaderLink from "../components/Header/HeaderLink";
 
 function BrowsePage() {
 
+  const [category, setCategory] = useState("films")
+
   return (
     <>
     <HeaderWrapper className="header-wrapper-browse">
       <NavBar className="navbar-browse">
         <Logo />
-        <HeaderLink>Films</HeaderLink>
-        <HeaderLink>Series</HeaderLink>
+        <HeaderLink 
+          className={category === "films" ? "header-link-bold" : "header-link"}
+          onClick={() => setCategory("films") } >
+          Films
+        </HeaderLink>
+        <HeaderLink 
+          className={category === "series" ? "header-link-bold" : "header-link"}
+          onClick={() => setCategory("series") } >
+          Series
+        </HeaderLink>
       </NavBar>
       <FeatureWrapper>
         <FeatureTitle className="feature-title-browse">Watch Joker Now</FeatureTitle>
