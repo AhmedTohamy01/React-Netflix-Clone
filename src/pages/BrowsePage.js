@@ -10,6 +10,7 @@ import PlayButton from "../components/Header/PlayButton";
 import HeaderLink from "../components/Header/HeaderLink";
 import AllSlidesWrapper from "../components/Movies/AllSlidesWrapper";
 import SlideWrapper from "../components/Movies/SlideWrapper";
+import SlideTitle from "../components/Movies/SlideTitle";
 
 
 function BrowsePage() {
@@ -64,6 +65,7 @@ function BrowsePage() {
 
     <AllSlidesWrapper>
       <SlideWrapper>
+        <SlideTitle>Drama</SlideTitle>
 
       </SlideWrapper>
     </AllSlidesWrapper>
