@@ -119,16 +119,26 @@ a {
   text-align: center;
 }
 
-.feature-title-home {
-  color: #fff;
+.feature-title-home,
+.feature-title-browse {
+  /* border: solid yellow; */
+  color: white;
   max-width: 640px;
   font-size: 50px;
   font-weight: 700;
   margin: auto;
 }
 
+.feature-title-browse {
+  margin: initial;
+  line-height: normal;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.45);
+  margin-bottom: 20px;
+}
+
 @media (max-width: 550px) {
-  .feature-title-home {
+.feature-title-home,
+.feature-title-browse {
     font-size: 30px;
   }
 }
