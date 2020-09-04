@@ -5,6 +5,7 @@ import Logo from "../components/Header/Logo";
 import FeatureWrapper from "../components/Header/FeatureWrapper";
 import FeatureTitle from "../components/Header/FeatureTitle";
 import FeatureSubTitle from "../components/Header/FeatureSubTitle";
+import PlayButton from "../components/Header/PlayButton";
 
 
 function BrowsePage() {
@@ -23,6 +24,7 @@ function BrowsePage() {
           a clown, and the guise he projects in a futile attempt to feel like he is part of 
           the world around him.
         </FeatureSubTitle>
+        <PlayButton>Play</PlayButton>
       </FeatureWrapper>
     </HeaderWrapper>
     </>
