@@ -46,8 +46,17 @@ a {
   padding: 30px 50px;
 }
 
+.header-wrapper-browse {
+  background: url("../images/misc/joker1.jpg");
+  background-position: center top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 30px 50px;
+}
+
 @media (max-width: 550px) {
-  .header-wrapper-home {
+  .header-wrapper-home,
+  .header-wrapper-browse {
     padding: 15px 20px;
     height: 550px;
   }

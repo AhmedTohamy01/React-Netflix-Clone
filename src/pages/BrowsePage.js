@@ -1,10 +1,12 @@
 import React from "react";
+import HeaderWrapper from "../components/Header/HeaderWrapper";
 
 function BrowsePage() {
 
   return (
     <>
-    Browse Page
+    <HeaderWrapper className="header-wrapper-browse">
+    </HeaderWrapper>
     </>
   )
 }
