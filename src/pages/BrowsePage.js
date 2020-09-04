@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import useContent from "../custom-hooks/useContent";
 import HeaderWrapper from "../components/Header/HeaderWrapper";
 import NavBar from "../components/Header/NavBar";
 import Logo from "../components/Header/Logo";
@@ -10,6 +11,24 @@ import HeaderLink from "../components/Header/HeaderLink";
 
 
 function BrowsePage() {
+
+  let {series} = useContent('series');
+  series = [
+     { title: 'Documentaries', data: series.filter((item) => item.genre === 'documentaries') },
+     { title: 'Comedies', data: series.filter((item) => item.genre === 'comedies') },
+     { title: 'Children', data: series.filter((item) => item.genre === 'children') },
+     { title: 'Crime', data: series.filter((item) => item.genre === 'crime') },
+     { title: 'Feel Good', data: series.filter((item) => item.genre === 'feel-good') },
+  ]
+
+  let {films} = useContent('films');
+  films = [
+      { title: 'Drama', data: films.filter((item) => item.genre === 'drama') },      
+      { title: 'Thriller', data: films.filter((item) => item.genre === 'thriller') },
+      { title: 'Children', data: films.filter((item) => item.genre === 'children') },      
+      { title: 'Suspense', data: films.filter((item) => item.genre === 'suspense') },      
+      { title: 'Romance', data: films.filter((item) => item.genre === 'romance') },      
+  ]
 
   const [category, setCategory] = useState("films")
 
