@@ -84,6 +84,17 @@ a {
   }
 }
 
+.navbar-browse {
+  /* border: solid green; */
+  max-width: 1850px;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 175px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
 .logo {
   height: 32px;
   width: 108px;
