@@ -13,7 +13,7 @@ import SlideWrapper from "../components/Movies/SlideWrapper";
 import SlideTitle from "../components/Movies/SlideTitle";
 import AllCardsWrapper from "../components/Movies/AllCardsWrapper";
 import CardWrapper from "../components/Movies/CardWrapper";
-
+import CardImage from "../components/Movies/CardImage";
 
 function BrowsePage() {
 
@@ -70,7 +70,7 @@ function BrowsePage() {
         <SlideTitle>Drama</SlideTitle>
         <AllCardsWrapper>
           <CardWrapper>
-
+            <CardImage src={`/images/films/drama/fight-club/small.jpg`}/>
           </CardWrapper>
         </AllCardsWrapper>
       </SlideWrapper>
