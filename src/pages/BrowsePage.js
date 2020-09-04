@@ -2,6 +2,7 @@ import React from "react";
 import HeaderWrapper from "../components/Header/HeaderWrapper";
 import NavBar from "../components/Header/NavBar";
 import Logo from "../components/Header/Logo";
+import FeatureWrapper from "../components/Header/FeatureWrapper";
 
 
 function BrowsePage() {
@@ -13,6 +14,9 @@ function BrowsePage() {
         <Logo />
 
       </NavBar>
+      <FeatureWrapper>
+        
+      </FeatureWrapper>
     </HeaderWrapper>
     </>
   )
