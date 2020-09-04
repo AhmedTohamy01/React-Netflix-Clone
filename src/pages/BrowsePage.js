@@ -1,6 +1,8 @@
 import React from "react";
 import HeaderWrapper from "../components/Header/HeaderWrapper";
 import NavBar from "../components/Header/NavBar";
+import Logo from "../components/Header/Logo";
+
 
 function BrowsePage() {
 
@@ -8,6 +10,8 @@ function BrowsePage() {
     <>
     <HeaderWrapper className="header-wrapper-browse">
       <NavBar className="navbar-browse">
+        <Logo />
+
       </NavBar>
     </HeaderWrapper>
     </>
