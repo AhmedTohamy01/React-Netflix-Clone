@@ -9,6 +9,7 @@ import FeatureSubTitle from "../components/Header/FeatureSubTitle";
 import PlayButton from "../components/Header/PlayButton";
 import HeaderLink from "../components/Header/HeaderLink";
 import AllSlidesWrapper from "../components/Movies/AllSlidesWrapper";
+import SlideWrapper from "../components/Movies/SlideWrapper";
 
 
 function BrowsePage() {
@@ -62,7 +63,9 @@ function BrowsePage() {
     </HeaderWrapper>
 
     <AllSlidesWrapper>
-      
+      <SlideWrapper>
+
+      </SlideWrapper>
     </AllSlidesWrapper>
     </>
   )
