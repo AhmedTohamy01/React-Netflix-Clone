@@ -585,3 +585,23 @@ a {
   font-weight: bold;
   margin-bottom: 20px;
 }
+
+.all-cards-wrapper {
+  /* border: solid red; */
+  display: flex;
+  flex-direction: row;
+}
+
+.card-wrapper:hover {
+  /* border: solid orchid; */
+  transform: scale(1.25);
+}
+
+.card-image {
+  border: 0;
+  width: 100%;
+  max-width: 305px;
+  cursor: pointer;
+  height: auto;
+  padding: 0 5px;
+}
