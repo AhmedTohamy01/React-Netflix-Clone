@@ -6,6 +6,7 @@ import FeatureWrapper from "../components/Header/FeatureWrapper";
 import FeatureTitle from "../components/Header/FeatureTitle";
 import FeatureSubTitle from "../components/Header/FeatureSubTitle";
 import PlayButton from "../components/Header/PlayButton";
+import HeaderLink from "../components/Header/HeaderLink";
 
 
 function BrowsePage() {
@@ -15,6 +16,8 @@ function BrowsePage() {
     <HeaderWrapper className="header-wrapper-browse">
       <NavBar className="navbar-browse">
         <Logo />
+        <HeaderLink>Films</HeaderLink>
+        <HeaderLink>Series</HeaderLink>
       </NavBar>
       <FeatureWrapper>
         <FeatureTitle className="feature-title-browse">Watch Joker Now</FeatureTitle>
