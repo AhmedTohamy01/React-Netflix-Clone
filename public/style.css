@@ -113,6 +113,24 @@ a {
   cursor: pointer;
 }
 
+.header-link,
+.header-link-bold {
+  /* border: solid red; */
+  padding: 5px;
+}
+
+.header-link a {
+  /* border: solid yellow; */
+  color: #fff;
+  margin-left: 25px;
+  cursor: pointer;
+  
+}
+
+.header-link-bold {
+  font-weight: bolder;
+}
+
 /* ############### Feature Section ############### */
 
 .feature-wrapper-home {
