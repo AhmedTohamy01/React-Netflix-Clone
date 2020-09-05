@@ -1,9 +1,9 @@
-import React from "react";
+import React from 'react';
 
-function CardDescription({children, ...restProps}) {
+function CardDescription({ children, ...restProps }) {
   return (
-    <div className="card-description"{...restProps}>{children}</div>
-  )
+    <div className="card-description" {...restProps}>{children}</div>
+  );
 }
 
 export default CardDescription;

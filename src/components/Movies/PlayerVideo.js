@@ -1,11 +1,11 @@
-import React from "react";
+import React from 'react';
 
-function PlayerVideo({children, ...restProps}) {
+function PlayerVideo({ children, ...restProps }) {
   return (
-    <video className="player-video" controls  {...restProps}>
-      <source {...restProps}/>
+    <video className="player-video" controls {...restProps}>
+      <source {...restProps} />
     </video>
-  )
+  );
 }
 
 export default PlayerVideo;

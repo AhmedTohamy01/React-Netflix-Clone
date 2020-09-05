@@ -1,12 +1,11 @@
-import React from "react";
+import React from 'react';
 
-
-function HeaderLink({children,...restProps}) {
+function HeaderLink({ children, ...restProps }) {
   return (
     <div className="header-link">
-    <a {...restProps}>{children}</a>
+      <a {...restProps}>{children}</a>
     </div>
-  )
+  );
 }
 
 export default HeaderLink;

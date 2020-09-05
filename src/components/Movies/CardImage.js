@@ -1,9 +1,9 @@
-import React from "react";
+import React from 'react';
 
-function CardImage({children, ...restProps}) {
+function CardImage({ ...restProps }) {
   return (
-    <img className="card-image"{...restProps}>{children}</img>
-  )
+    <img className="card-image" alt="movie" {...restProps} />
+  );
 }
 
 export default CardImage;

@@ -1,9 +1,9 @@
-import React from "react";
+import React from 'react';
 
-function PlayerOverlay({children, ...restProps}) {
+function PlayerOverlay({ children, ...restProps }) {
   return (
-    <div className="player-overlay"{...restProps}>{children}</div>
-  )
+    <div className="player-overlay" {...restProps}>{children}</div>
+  );
 }
 
 export default PlayerOverlay;

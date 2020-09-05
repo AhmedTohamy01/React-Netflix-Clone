@@ -453,13 +453,13 @@ a {
   grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
-@media screen and (max-width: 740px) {
+@media (max-width: 740px) {
   .footer-row {
     grid-template-columns: 1fr 1fr 1fr;
   }
 }
 
-@media screen and (max-width: 500px) {
+@media (max-width: 500px) {
   .footer-row {
     grid-template-columns: 1fr 1fr;
   }

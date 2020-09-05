@@ -1,9 +1,9 @@
-import React from "react";
+import React from 'react';
 
-function PlayButton({children, ...restProps}) {
+function PlayButton({ children, ...restProps }) {
   return (
-      <button className="play-button" {...restProps}>{children}</button>
-  )
+    <button className="play-button" type="button" {...restProps}>{children}</button>
+  );
 }
 
 export default PlayButton;

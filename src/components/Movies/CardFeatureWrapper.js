@@ -1,9 +1,9 @@
-import React from "react";
+import React from 'react';
 
-function CardFeatureWrapper({children, ...restProps}) {
+function CardFeatureWrapper({ children, ...restProps }) {
   return (
-    <div className="card-feature-wrapper"{...restProps}>{children}</div>
-  )
+    <div className="card-feature-wrapper" {...restProps}>{children}</div>
+  );
 }
 
 export default CardFeatureWrapper;
