@@ -17,6 +17,8 @@
 
 /* SignForm Section */
 
+/* Movies Section */ 
+
 /* ############### Global Styles Section ############### */
 
 html,
@@ -58,7 +60,7 @@ a {
   .header-wrapper-home,
   .header-wrapper-browse {
     padding: 15px 20px;
-    height: 550px;
+    /* height: 550px; */
   }
 }
 
@@ -216,6 +218,8 @@ a {
   justify-content: center;
   margin-top: 20px;
   margin-bottom: 70px;
+  padding: 0px 20px;
+
 }
 
 @media (max-width: 950px) {
@@ -364,7 +368,7 @@ a {
 @media (max-width: 550px) {
   .accordion-wrapper {
     max-width: initial;
-    padding: 70px 0;
+    padding: 70px 20px;
   }
 }
 
@@ -487,7 +491,7 @@ a {
 .sign-form-wrapper {
   display: flex;
   flex-direction: column;
-  min-height: 660px;
+  min-height: 570px;
   background-color: rgba(0, 0, 0, 0.75);
   border-radius: 5px;
   width: 100%;
