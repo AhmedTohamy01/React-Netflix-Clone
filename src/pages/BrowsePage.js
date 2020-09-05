@@ -36,6 +36,7 @@ function BrowsePage() {
   ]
 
   const [category, setCategory] = useState("films")
+  const currentCategory = category === "films" ? films : series;
 
   return (
     <>
@@ -66,14 +67,18 @@ function BrowsePage() {
     </HeaderWrapper>
 
     <AllSlidesWrapper>
-      <SlideWrapper>
-        <SlideTitle>Drama</SlideTitle>
-        <AllCardsWrapper>
-          <CardWrapper>
-            <CardImage src={`/images/films/drama/fight-club/small.jpg`}/>
-          </CardWrapper>
-        </AllCardsWrapper>
-      </SlideWrapper>
+      {currentCategory.map((slideItem) => (
+        <SlideWrapper>
+          <SlideTitle>{slideItem.title}</SlideTitle>
+          <AllCardsWrapper>
+            {slideItem.data.map((cardItem) =>(
+              <CardWrapper>
+                <CardImage src={`/images/${category}/${cardItem.genre}/${cardItem.slug}/small.jpg`}/>
+              </CardWrapper>
+            ))}
+          </AllCardsWrapper>
+        </SlideWrapper>
+      ))}
     </AllSlidesWrapper>
     </>
   )
