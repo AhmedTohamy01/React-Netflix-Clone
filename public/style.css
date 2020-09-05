@@ -17,6 +17,8 @@
 
 /* SignForm Section */
 
+/* Movies Section */
+
 /* ############### Global Styles Section ############### */
 
 html,
@@ -46,10 +48,18 @@ a {
   padding: 30px 50px;
 }
 
+.header-wrapper-browse {
+  background: url("../images/misc/joker1.jpg");
+  background-position: center top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 30px 50px;
+}
+
 @media (max-width: 550px) {
-  .header-wrapper-home {
+  .header-wrapper-home,
+  .header-wrapper-browse {
     padding: 15px 20px;
-    height: 550px;
   }
 }
 
@@ -75,6 +85,16 @@ a {
   }
 }
 
+.navbar-browse {
+  max-width: 1850px;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 175px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
 .logo {
   height: 32px;
   width: 108px;
@@ -93,37 +113,93 @@ a {
   cursor: pointer;
 }
 
+.header-link,
+.header-link-bold {
+  padding: 5px;
+}
+
+.header-link a {
+  color: #fff;
+  margin-left: 25px;
+  cursor: pointer;
+}
+
+.header-link-bold {
+  font-weight: bolder;
+}
+
 /* ############### Feature Section ############### */
 
 .feature-wrapper-home {
   text-align: center;
 }
 
-.feature-title-home {
-  color: #fff;
+.feature-title-home,
+.feature-title-browse {
+  color: white;
   max-width: 640px;
   font-size: 50px;
   font-weight: 700;
   margin: auto;
 }
 
+.feature-title-browse {
+  margin: initial;
+  line-height: normal;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.45);
+  margin-bottom: 20px;
+}
+
 @media (max-width: 550px) {
-  .feature-title-home {
+  .feature-title-home,
+  .feature-title-browse {
     font-size: 30px;
   }
 }
 
-.feature-subtitle-home {
-  color: #fff;
+.feature-subtitle-home,
+.feature-subtitle-browse {
+  color: white;
   font-size: 26px;
   font-weight: normal;
   margin: 16px auto;
 }
 
+.feature-subtitle-browse {
+  max-width: 640px;
+  margin: initial;
+  font-size: 22px;
+  line-height: normal;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.45);
+}
+
 @media (max-width: 550px) {
-  .feature-subtitle-home {
+  .feature-subtitle-home,
+  .feature-subtitle-browse {
     font-size: 18px;
   }
+}
+
+.play-button {
+  box-shadow: 0 0.6vw 1vw -0.4vw rgba(0, 0, 0, 0.35);
+  background-color: #e6e6e6;
+  border-width: 0;
+  padding: 10px 35px;
+  border-radius: 5px;
+  max-width: 130px;
+  font-size: 20px;
+  margin-top: 25px;
+  cursor: pointer;
+  text-align: center;
+  color: #000;
+  transition: 0.4s ease;
+  margin-bottom: 200px;
+  outline: 0;
+}
+
+.play-button:hover {
+  background: #ff1e1e;
+  color: white;
 }
 
 /* ############### OptForm Section ############### */
@@ -133,6 +209,7 @@ a {
   justify-content: center;
   margin-top: 20px;
   margin-bottom: 70px;
+  padding: 0 20px;
 }
 
 @media (max-width: 950px) {
@@ -281,7 +358,7 @@ a {
 @media (max-width: 550px) {
   .accordion-wrapper {
     max-width: initial;
-    padding: 70px 0;
+    padding: 70px 20px;
   }
 }
 
@@ -376,13 +453,13 @@ a {
   grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
-@media screen and (max-width: 740px) {
+@media (max-width: 740px) {
   .footer-row {
     grid-template-columns: 1fr 1fr 1fr;
   }
 }
 
-@media screen and (max-width: 500px) {
+@media (max-width: 500px) {
   .footer-row {
     grid-template-columns: 1fr 1fr;
   }
@@ -404,7 +481,7 @@ a {
 .sign-form-wrapper {
   display: flex;
   flex-direction: column;
-  min-height: 660px;
+  min-height: 570px;
   background-color: rgba(0, 0, 0, 0.75);
   border-radius: 5px;
   width: 100%;
@@ -479,4 +556,114 @@ a {
   font-size: 13px;
   line-height: normal;
   color: #8c8c8c;
+}
+
+/* ############### Movies Section ############### */
+
+.all-slides-wrapper {
+  padding: 30px 50px;
+}
+
+.slide-wrapper {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 50px;
+}
+
+.slide-title {
+  font-size: 24px;
+  color: #e5e5e5;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 650px) {
+  .slide-title {
+    text-align: center;
+  }
+}
+
+.all-cards-wrapper {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+}
+
+@media (max-width: 650px) {
+  .all-cards-wrapper {
+    flex-direction: column;
+  }
+}
+
+.card-wrapper:hover {
+  transform: scale(1.25);
+}
+
+.card-image {
+  border: 0;
+  width: 100%;
+  max-width: 305px;
+  cursor: pointer;
+  height: auto;
+  padding: 0 5px;
+}
+
+.card-feature-wrapper {
+  background-size: contain;
+  position: relative;
+  height: 360px;
+  background-position-x: right;
+  background-repeat: no-repeat;
+  background-color: black;
+  padding-top: 30px;
+}
+
+.card-title {
+  color: white;
+  max-width: 640px;
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+
+.card-description {
+  color: white;
+  max-width: 500px;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.card-feature-close {
+  color: white;
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  cursor: pointer;
+  background-color: transparent;
+  border: 0;
+  outline: none;
+}
+
+.card-feature-close img {
+  filter: brightness(0) invert(1);
+  width: 24px;
+}
+
+.player-video {
+  position: relative;
+  width: 100%;
+  max-width: 800px;
+  margin: auto;
+}
+
+.player-overlay {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
 }
