@@ -18,6 +18,8 @@ import CardTitle from "../components/Movies/CardTitle";
 import CardDescription from "../components/Movies/CardDescription";
 import CardFeatureWrapper from "../components/Movies/CardFeatureWrapper";
 import CardFeatureClose from "../components/Movies/CardFeatureClose";
+import PlayerVideo from "../components/Movies/PlayerVideo";
+import PlayerOverlay from "../components/Movies/PlayerOverlay";
 
 function BrowsePage() {
 
@@ -69,7 +71,12 @@ function BrowsePage() {
           a clown, and the guise he projects in a futile attempt to feel like he is part of 
           the world around him.
         </FeatureSubTitle>
-        <PlayButton>Play</PlayButton>
+        <PlayButton onClick={() => setShowPlayer(true)}>Play</PlayButton>
+        { showPlayer ? (
+          <PlayerOverlay onClick={() => setShowPlayer(false)}>
+          <PlayerVideo src="/videos/video.mp4" type="video/mp4" ></PlayerVideo>
+          </PlayerOverlay> ) : null
+        }
       </FeatureWrapper>
     </HeaderWrapper>
 
@@ -90,6 +97,11 @@ function BrowsePage() {
                 <CardDescription>{activeItem.description}</CardDescription>
                 <CardFeatureClose onClick={() => setShowCardFeature(false)}/>
                 <PlayButton onClick={() => setShowPlayer(true)}>Play</PlayButton>
+                { showPlayer ? (
+                <PlayerOverlay onClick={() => setShowPlayer(false)}>
+                  <PlayerVideo src="/videos/video.mp4" type="video/mp4" ></PlayerVideo>
+                </PlayerOverlay> ) : null
+                }
           </CardFeatureWrapper>) : null
           }
         </SlideWrapper>

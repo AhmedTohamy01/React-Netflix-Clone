@@ -651,3 +651,25 @@ a {
   filter: brightness(0) invert(1);
   width: 24px;
 }
+
+.player-video {
+  /* border: solid orange; */
+  position: relative;
+  width: 100%;
+  max-width: 800px;
+  margin: auto;
+}
+
+.player-overlay {
+  /* border: solid rebeccapurple; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  margin: 0 20px;
+}
