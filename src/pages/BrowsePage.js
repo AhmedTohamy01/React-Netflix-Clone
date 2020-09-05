@@ -20,6 +20,7 @@ import CardFeatureWrapper from "../components/Movies/CardFeatureWrapper";
 import CardFeatureClose from "../components/Movies/CardFeatureClose";
 import PlayerVideo from "../components/Movies/PlayerVideo";
 import PlayerOverlay from "../components/Movies/PlayerOverlay";
+import FooterCompound from "../compounds/FooterCompound";
 
 function BrowsePage() {
 
@@ -107,6 +108,7 @@ function BrowsePage() {
         </SlideWrapper>
       ))}
     </AllSlidesWrapper>
+    <FooterCompound />
     </>
   )
 }
