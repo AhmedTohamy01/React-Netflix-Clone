@@ -577,9 +577,22 @@ a {
   margin-bottom: 20px;
 }
 
+@media (max-width: 650px) {
+  .slide-title {
+    text-align: center;
+  }
+}
+
 .all-cards-wrapper {
   display: flex;
   flex-direction: row;
+  text-align: center;
+}
+
+@media (max-width: 650px) {
+  .all-cards-wrapper {
+    flex-direction: column;
+  }
 }
 
 .card-wrapper:hover {
