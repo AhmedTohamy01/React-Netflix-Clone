@@ -605,3 +605,49 @@ a {
   height: auto;
   padding: 0 5px;
 }
+
+.card-feature-wrapper {
+  /* border: solid yellowgreen; */
+  background-size: contain;
+  position: relative;
+  height: 360px;
+  background-position-x: right;
+  background-repeat: no-repeat;
+  background-color: black;
+  padding-top: 30px;
+}
+
+.card-title {
+  /* border: solid white; */
+  color: white;
+  max-width: 640px;
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+
+.card-description {
+  /* border: solid white; */
+  color: white;
+  max-width: 500px;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.card-feature-close {
+  color: white;
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  cursor: pointer;
+  background-color: transparent;
+  border: 0;
+  outline: none;
+}
+
+
+
+.card-feature-close img {
+  filter: brightness(0) invert(1);
+  width: 24px;
+}

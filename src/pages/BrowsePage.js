@@ -14,6 +14,10 @@ import SlideTitle from "../components/Movies/SlideTitle";
 import AllCardsWrapper from "../components/Movies/AllCardsWrapper";
 import CardWrapper from "../components/Movies/CardWrapper";
 import CardImage from "../components/Movies/CardImage";
+import CardTitle from "../components/Movies/CardTitle";
+import CardDescription from "../components/Movies/CardDescription";
+import CardFeatureWrapper from "../components/Movies/CardFeatureWrapper";
+import CardFeatureClose from "../components/Movies/CardFeatureClose";
 
 function BrowsePage() {
 
@@ -37,6 +41,9 @@ function BrowsePage() {
 
   const [category, setCategory] = useState("films")
   const currentCategory = category === "films" ? films : series;
+  const [showCardFeature, setShowCardFeature] = useState(false);
+  const [activeItem, setActiveItem] = useState(false);
+  const [showPlayer, setShowPlayer] = useState(false);
 
   return (
     <>
@@ -73,10 +80,18 @@ function BrowsePage() {
           <AllCardsWrapper>
             {slideItem.data.map((cardItem) =>(
               <CardWrapper>
-                <CardImage src={`/images/${category}/${cardItem.genre}/${cardItem.slug}/small.jpg`}/>
+                <CardImage onClick={() => {setShowCardFeature(true); setActiveItem(cardItem)}} src={`/images/${category}/${cardItem.genre}/${cardItem.slug}/small.jpg`}/>
               </CardWrapper>
             ))}
           </AllCardsWrapper>
+          { showCardFeature && slideItem.title.toLowerCase() == activeItem.genre ? (
+          <CardFeatureWrapper style={{backgroundImage: `url(/images/${category}/${activeItem.genre}/${activeItem.slug}/large.jpg)`}}>
+                <CardTitle>{activeItem.title}</CardTitle>
+                <CardDescription>{activeItem.description}</CardDescription>
+                <CardFeatureClose onClick={() => setShowCardFeature(false)}/>
+                <PlayButton onClick={() => setShowPlayer(true)}>Play</PlayButton>
+          </CardFeatureWrapper>) : null
+          }
         </SlideWrapper>
       ))}
     </AllSlidesWrapper>
