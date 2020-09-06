@@ -31,7 +31,7 @@ function SigninPage() {
       .then(() => {
         setEmailAddress('');
         setPassword('');
-        history.push('/browse');
+        history.push('./browse');
       });
   }
 
@@ -60,7 +60,7 @@ function SigninPage() {
             <SignFormButton disabled={IsInvalid}>Sign In</SignFormButton>
             <SignFormText>
               New to Netflix?
-              <SignFormLink href="/signup">Sign up now.</SignFormLink>
+              <SignFormLink href="./#/signup">Sign up now.</SignFormLink>
             </SignFormText>
             <SignFormCaptcha>
               This page is protected by Google reCAPTCHA to ensure you are not a bot.

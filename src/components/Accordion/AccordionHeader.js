@@ -11,8 +11,8 @@ function AccordionHeader({ children, ...restProps }) {
   return (
     <div className="accordion-header" onClick={handleClick} {...restProps}>
       {children}
-      {AccordionShow ? (<img className="accordion-image" src="/images/icons/close-slim.png" alt="Close" />)
-        : (<img className="accordion-image" src="/images/icons/add.png" alt="Open" />)}
+      {AccordionShow ? (<img className="accordion-image" src="./images/icons/close-slim.png" alt="Close" />)
+        : (<img className="accordion-image" src="./images/icons/add.png" alt="Open" />)}
     </div>
   );
 }

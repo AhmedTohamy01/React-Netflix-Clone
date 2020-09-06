@@ -41,7 +41,7 @@ a {
 /* ############### Header Section ############### */
 
 .header-wrapper-home {
-  background: url("../images/misc/home-bg.jpg");
+  background: url("./images/misc/home-bg.jpg");
   background-position: top left;
   background-size: cover;
   background-repeat: no-repeat;
@@ -49,7 +49,7 @@ a {
 }
 
 .header-wrapper-browse {
-  background: url("../images/misc/joker1.jpg");
+  background: url("./images/misc/joker1.jpg");
   background-position: center top;
   background-size: cover;
   background-repeat: no-repeat;
