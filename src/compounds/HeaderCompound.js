@@ -15,8 +15,12 @@ function HeaderCompound({ children }) {
         <SigninButton>Sign In</SigninButton>
       </NavBar>
       <FeatureWrapper className="feature-wrapper-home">
-        <FeatureTitle className="feature-title-home">Unlimited movies, TV shows and more.</FeatureTitle>
-        <FeatureSubTitle className="feature-subtitle-home">Watch anywhere. Cancel at any time.</FeatureSubTitle>
+        <FeatureTitle className="feature-title-home">
+          Unlimited movies, TV shows and more.
+        </FeatureTitle>
+        <FeatureSubTitle className="feature-subtitle-home">
+          Watch anywhere. Cancel at any time.
+        </FeatureSubTitle>
       </FeatureWrapper>
       {children}
     </HeaderWrapper>

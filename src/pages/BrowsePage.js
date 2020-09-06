@@ -89,12 +89,17 @@ function BrowsePage() {
             <AllCardsWrapper>
               {slideItem.data.map(cardItem => (
                 <CardWrapper key={cardItem.docId}>
-                  <CardImage onClick={() => { setShowCardFeature(true); setActiveItem(cardItem); }} src={`./images/${category}/${cardItem.genre}/${cardItem.slug}/small.jpg`} />
+                  <CardImage 
+                    onClick={() => { setShowCardFeature(true); setActiveItem(cardItem); }} 
+                    src={`./images/${category}/${cardItem.genre}/${cardItem.slug}/small.jpg`} 
+                  />
                 </CardWrapper>
               ))}
             </AllCardsWrapper>
             { showCardFeature && slideItem.title.toLowerCase() === activeItem.genre ? (
-              <CardFeatureWrapper style={{ backgroundImage: `url(./images/${category}/${activeItem.genre}/${activeItem.slug}/large.jpg)` }}>
+              <CardFeatureWrapper 
+                style={{ backgroundImage: `url(./images/${category}/${activeItem.genre}/${activeItem.slug}/large.jpg)` }}
+              >
                 <CardTitle>{activeItem.title}</CardTitle>
                 <CardDescription>{activeItem.description}</CardDescription>
                 <CardFeatureClose onClick={() => setShowCardFeature(false)} />
