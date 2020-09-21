@@ -336,11 +336,11 @@ Remove "./#" from the link's href.
 
 9) SigninPage.js file
 Remove "./#" from the SignFormLink's href.
-Add a dot at the beginning of the redirection link of history.push.
+Add a second dot at the beginning of the redirection link of history.push.
 
 10) SignupPage.js file
 Remove "./#" from the SignFormLink's href.
-Add a dot at the beginning of the redirection link of history.push.
+Add a second dot at the beginning of the redirection link of history.push.
 ```
 
 
