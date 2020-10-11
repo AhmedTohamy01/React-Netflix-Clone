@@ -1,9 +1,11 @@
-import React from 'react';
+import React from "react";
 import "./MoviesStyles.css";
 
 function PlayerOverlay({ children, ...restProps }) {
   return (
-    <div className="player-overlay" {...restProps}>{children}</div>
+    <div className="player-overlay" {...restProps}>
+      {children}
+    </div>
   );
 }
 

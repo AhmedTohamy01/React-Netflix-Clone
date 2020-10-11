@@ -1,9 +1,11 @@
-import React from 'react';
+import React from "react";
 import "./SignFormStyles.css";
 
 function SignFormCaptcha({ children, ...restProps }) {
   return (
-    <p className="sign-form-captcha" {...restProps}>{children}</p>
+    <p className="sign-form-captcha" {...restProps}>
+      {children}
+    </p>
   );
 }
 

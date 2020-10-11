@@ -1,9 +1,11 @@
-import React from 'react';
+import React from "react";
 import "./JumbotronStyles.css";
 
 function JumboWrapper({ children, ...restProps }) {
   return (
-    <section className="jumbo-wrapper" {...restProps}>{children}</section>
+    <section className="jumbo-wrapper" {...restProps}>
+      {children}
+    </section>
   );
 }
 

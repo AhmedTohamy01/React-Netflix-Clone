@@ -1,9 +1,11 @@
-import React from 'react';
+import React from "react";
 import "./SignFormStyles.css";
 
 function SignFormText({ children, ...restProps }) {
   return (
-    <p className="sign-form-text" {...restProps}>{children}</p>
+    <p className="sign-form-text" {...restProps}>
+      {children}
+    </p>
   );
 }
 

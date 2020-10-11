@@ -1,10 +1,8 @@
-import React from 'react';
+import React from "react";
 import "./FeatureStyles.css";
 
 function FeatureWrapper({ children, ...restProps }) {
-  return (
-    <div {...restProps}>{children}</div>
-  );
+  return <div {...restProps}>{children}</div>;
 }
 
 export default FeatureWrapper;

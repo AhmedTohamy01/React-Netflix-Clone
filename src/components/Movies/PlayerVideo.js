@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 import "./MoviesStyles.css";
 
 function PlayerVideo({ children, ...restProps }) {
