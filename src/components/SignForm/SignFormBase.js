@@ -1,8 +1,11 @@
-import React from 'react';
+import React from "react";
+import "./SignFormStyles.css";
 
 function SignFormBase({ children, ...restProps }) {
   return (
-    <form className="sign-form-base" {...restProps}>{children}</form>
+    <form className="sign-form-base" {...restProps}>
+      {children}
+    </form>
   );
 }
 

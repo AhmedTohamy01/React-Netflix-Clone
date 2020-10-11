@@ -1,8 +1,11 @@
-import React from 'react';
+import React from "react";
+import "./SignFormStyles.css";
 
 function SignFormLink({ children, ...restProps }) {
   return (
-    <a className="sign-form-link" {...restProps}>{children}</a>
+    <a className="sign-form-link" {...restProps}>
+      {children}
+    </a>
   );
 }
 

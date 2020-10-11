@@ -1,0 +1,69 @@
+/* ############### OptForm Section ############### */
+
+.optform-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 70px;
+  padding: 0 20px;
+}
+
+@media (max-width: 950px) {
+  .optform-wrapper {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.optform-email {
+  max-width: 450px;
+  width: 100%;
+  border: 0;
+  padding: 10px;
+  height: 60px;
+  font-size: 20px;
+}
+
+.optform-button {
+  width: fit-content;
+  height: 60px;
+  background: #e50914;
+  color: #fff;
+  text-transform: uppercase;
+  padding: 0 32px;
+  font-size: 26px;
+  border: 0;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.optform-button a {
+  color: white;
+}
+
+@media (max-width: 950px) {
+  .optform-button {
+    height: 50px;
+    font-size: 16px;
+    margin-top: 20px;
+    font-weight: bold;
+  }
+}
+
+.optform-button-image {
+  margin-left: 10px;
+  filter: brightness(0) invert(1);
+  width: 24px;
+}
+
+.optform-button-image img:hover {
+  background: #f40612;
+}
+
+.optform-text {
+  font-size: 19px;
+  color: #fff;
+  text-align: center;
+  padding: 0 20px;
+}

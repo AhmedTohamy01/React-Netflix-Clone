@@ -1,9 +1,8 @@
-import React from 'react';
+import React from "react";
+import "./HeaderStyles.css";
 
 function HeaderWrapper({ children, ...restProps }) {
-  return (
-    <header {...restProps}>{children}</header>
-  );
+  return <header {...restProps}>{children}</header>;
 }
 
 export default HeaderWrapper;

@@ -1,8 +1,11 @@
-import React from 'react';
+import React from "react";
+import "./OptFormStyles.css";
 
 function OptFormWrapper({ children, ...restProps }) {
   return (
-    <div className="optform-wrapper" {...restProps}>{children}</div>
+    <div className="optform-wrapper" {...restProps}>
+      {children}
+    </div>
   );
 }
 

@@ -1,0 +1,70 @@
+/* ############### Jumbotron Section ############### */
+
+.jumbo-item {
+  padding: 70px 5%;
+  max-width: 1100px;
+  margin: auto;
+  display: flex;
+  justify-content: flex-end;
+}
+
+@media (max-width: 950px) {
+  .jumbo-item {
+    flex-direction: column;
+  }
+}
+
+.jumbo-title {
+  font-size: 3rem;
+  line-height: 1.1;
+  margin-bottom: 8px;
+  padding-right: 100px;
+}
+
+@media (max-width: 950px) {
+  .jumbo-title {
+    font-size: 2.5rem;
+    text-align: center;
+    padding-right: initial;
+  }
+}
+
+@media (max-width: 550px) {
+  .jumbo-title {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+}
+
+.jumbo-subtitle {
+  font-size: 1.5rem;
+  font-weight: normal;
+  line-height: normal;
+  padding-right: 100px;
+}
+
+@media (max-width: 950px) {
+  .jumbo-subtitle {
+    font-size: 1.25rem;
+    text-align: center;
+    padding-right: initial;
+  }
+}
+
+@media (max-width: 550px) {
+  .jumbo-subtitle {
+    font-size: 1.2rem;
+    text-align: center;
+  }
+}
+
+@media (max-width: 950px) {
+  .jumbo-imagewrapper {
+    text-align: center;
+  }
+}
+
+.jumbo-image {
+  max-width: 100%;
+  height: auto;
+}

@@ -1,8 +1,11 @@
-import React from 'react';
+import React from "react";
+import "./AccordionStyles.css";
 
 function AccordionTitle({ children, ...restProps }) {
   return (
-    <h1 className="accordion-title" {...restProps}>{children}</h1>
+    <h1 className="accordion-title" {...restProps}>
+      {children}
+    </h1>
   );
 }
 

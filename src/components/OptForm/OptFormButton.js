@@ -1,10 +1,17 @@
-import React from 'react';
+import React from "react";
+import "./OptFormStyles.css";
 
 function optFormButton({ children, ...restProps }) {
   return (
-    <div className="optform-button" {...restProps}>
-      {children}
-      <img className="optform-button-image" src="./images/icons/chevron-right.png" alt="Try Now" />
+    <div>
+      <a className="optform-button" href="./#/signup" {...restProps}>
+        {children}
+        <img
+          className="optform-button-image"
+          src="./images/icons/chevron-right.png"
+          alt="Try Now"
+        />
+      </a>
     </div>
   );
 }

@@ -1,11 +1,11 @@
-import React from 'react';
-import HeaderWrapper from '../components/Header/HeaderWrapper';
-import NavBar from '../components/Header/NavBar';
-import Logo from '../components/Header/Logo';
-import SigninButton from '../components/Header/SigninButton';
-import FeatureWrapper from '../components/Header/FeatureWrapper';
-import FeatureTitle from '../components/Header/FeatureTitle';
-import FeatureSubTitle from '../components/Header/FeatureSubTitle';
+import React from "react";
+import HeaderWrapper from "../components/Header/HeaderWrapper";
+import NavBar from "../components/Header/NavBar";
+import Logo from "../components/Header/Logo";
+import SigninButton from "../components/Header/SigninButton";
+import FeatureWrapper from "../components/Header/FeatureWrapper";
+import FeatureTitle from "../components/Header/FeatureTitle";
+import FeatureSubTitle from "../components/Header/FeatureSubTitle";
 
 function HeaderCompound({ children }) {
   return (

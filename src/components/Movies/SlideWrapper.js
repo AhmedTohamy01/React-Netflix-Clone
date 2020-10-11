@@ -1,8 +1,11 @@
-import React from 'react';
+import React from "react";
+import "./MoviesStyles.css";
 
 function SlideWrapper({ children, ...restProps }) {
   return (
-    <div className="slide-wrapper" {...restProps}>{children}</div>
+    <div className="slide-wrapper" {...restProps}>
+      {children}
+    </div>
   );
 }
 
