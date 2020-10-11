@@ -4,11 +4,11 @@ import "./OptFormStyles.css";
 function optFormButton({ children, ...restProps }) {
   return (
     <div>
-      <a className="optform-button" href="./#/signup" {...restProps}>
+      <a className="optform-button" href="/signup" {...restProps}>
         {children}
         <img
           className="optform-button-image"
-          src="./images/icons/chevron-right.png"
+          src="../images/icons/chevron-right.png"
           alt="Try Now"
         />
       </a>

@@ -125,7 +125,7 @@ function BrowsePage() {
                       setShowCardFeature(true);
                       setActiveItem(cardItem);
                     }}
-                    src={`./images/${category}/${cardItem.genre}/${cardItem.slug}/small.jpg`}
+                    src={`../images/${category}/${cardItem.genre}/${cardItem.slug}/small.jpg`}
                   />
                 </CardWrapper>
               ))}
@@ -134,7 +134,7 @@ function BrowsePage() {
             slideItem.title.toLowerCase() === activeItem.genre ? (
               <CardFeatureWrapper
                 style={{
-                  backgroundImage: `url(./images/${category}/${activeItem.genre}/${activeItem.slug}/large.jpg)`,
+                  backgroundImage: `url(../images/${category}/${activeItem.genre}/${activeItem.slug}/large.jpg)`,
                 }}
               >
                 <CardTitle>{activeItem.title}</CardTitle>
@@ -145,7 +145,7 @@ function BrowsePage() {
                 </PlayButton>
                 {showPlayer ? (
                   <PlayerOverlay onClick={() => setShowPlayer(false)}>
-                    <PlayerVideo src="./videos/video.mp4" type="video/mp4" />
+                    <PlayerVideo src="../videos/video.mp4" type="video/mp4" />
                   </PlayerOverlay>
                 ) : null}
               </CardFeatureWrapper>

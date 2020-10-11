@@ -41,7 +41,7 @@ function SignupPage() {
             setFirstName("");
             setEmailAddress("");
             setPassword("");
-            history.push("./browse");
+            history.push("/browse");
           })
       )
       .catch((error) => setError(error.message));
@@ -79,7 +79,7 @@ function SignupPage() {
             <SignFormButton disabled={IsInvalid}>Sign Up</SignFormButton>
             <SignFormText>
               Already a user?
-              <SignFormLink href="./#/signin">Sign in now.</SignFormLink>
+              <SignFormLink href="/signin">Sign in now.</SignFormLink>
             </SignFormText>
             <SignFormCaptcha>
               This page is protected by Google reCAPTCHA to ensure you are not a
