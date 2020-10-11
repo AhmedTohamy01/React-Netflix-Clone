@@ -13,6 +13,7 @@ import SignFormButton from "../components/SignForm/SignFormButton";
 import SignFormText from "../components/SignForm/SignFormText";
 import SignFormLink from "../components/SignForm/SignFormLink";
 import SignFormCaptcha from "../components/SignForm/SignFormCaptcha";
+import SignFormError from "../components/SignForm/SignFormError";
 
 function SignupPage() {
   const history = useHistory();
