@@ -56,8 +56,7 @@ it redirects you to the home page when you click on it.
 It shows the main sentences of the website.
 
 ***2) Optform:***
-It's a text input field and a button,  It is supposed to redirect you to the sign-up page once you write your email and click on the getting started button but this function doesn't exist yet (it will be added in a later milestone).
-currently, you can type your email in the input field and the getting started button doesn't do any action.
+It's a text input field and a button,  It redirects you to the sign-up page once you click on the button.
 
 ***3) Jumbotron:***
 This section contains some images and paragraphs beside it, showing the advantages of Netflix. The data of this Jumbotron came from jumbo.json file.
@@ -90,11 +89,9 @@ it redirects you to the home page when you click on it.
 
 - Password input field.
 
-- Sign-in Button: It has a validation option, if any field in the form is empty it will be disabled. If the form fields have any data it will be active and will send the data to the firebase database in the backend for authentication.
+- Sign-in Button: It has a validation option, if any field in the form is empty it will be disabled. If the form fields have any data it will be active and will send the data to the firebase database in the backend for authentication. It has also an error handling function.
 
-- Link to Sign-up Page:  it redirects you to the sign-up page.
-
-Currently, the form doesn't have an error handling function, for example, if you enter a wrong password it will not allow you to login, but also it will not show you an error, it doesn't have also any validations for the data entered in the email or password field  (This will be added in a later milestone).
+- Link to Sign-up Page:  it redirects you to the sign-up page. 
 
 ***3) Footer:***
 It contains useful links users may need it.
@@ -124,11 +121,10 @@ it redirects you to the home page when you click on it.
 
 - Password input field.
 
-- Sign-up Button: It has a validation option, if any field in the form is empty it will be disabled. If the form fields have any data it will be active and will send the data to the firebase database in the backend for registration.
+- Sign-up Button: It has a validation option, if any field in the form is empty it will be disabled. If the form fields have any data it will be active and will send the data to the firebase database in the backend for registration. It has also an error handling function.
 
 - Link to Sign-in Page:  it redirects you to the sign-in page.
 
-Currently, the form doesn't have an error handling function, for example, if you enter an email address for a user already exist it will not allow you to register, but also it will not show you an error, it doesn't have also any validations for the data entered in the first-name, email or password field  (This will be added in a later milestone).
 
 ***3) Footer:***
 It contains useful links users may need it.
@@ -210,7 +206,7 @@ I have built this project using the following tools & techniques:
 - useState.
 - Compound Components.
 - JSX.
-- CSS.
+- CSS Modules.
 - Firebase.
 - VSCode.
 - StyleLint.
@@ -303,48 +299,7 @@ const config = {
  
 ```
 
-8) Since this project is deployed on Github pages, I had to change some paths to make it work normally on Github pages as you can see it in the live demo.
-
-You have to revert these changes to make it work normally again in the local development environment
-
-Do the following to revert the changes:
-
-```js
-1) in App.js file :
-Change "HashRouter" to "BrowserRouter".
-
-2) in style.css file:
-Add a second dot at the beginning of all image links paths.
-
-3) in jumbo.json file:
-Add a second dot at the beginning of all image links paths.
-
-4) in AccordionHeader.js file:
-Add a second dot at the beginning of all image links paths.
-
-5) in BrowsePage.js file:
-Add a second dot at the beginning of all image & video links paths.
-
-6) in CardFeatureClose file:
-Add a second dot at the beginning of all image & video links paths.
-
-7) in Logo.js file:
-Remove "./#" from the link's href.
-
-8) in SigninButton.js file:
-Remove "./#" from the link's href.
-
-9) SigninPage.js file
-Remove "./#" from the SignFormLink's href.
-Add a second dot at the beginning of the redirection link of history.push.
-
-10) SignupPage.js file
-Remove "./#" from the SignFormLink's href.
-Add a second dot at the beginning of the redirection link of history.push.
-```
-
-
-9) After seeding your firebase database with the movies information & reverting the Github Pages changes you can run the Netflix React App using the following command from your terminal:
+8) After seeding your firebase database with the movies information & reverting the Github Pages changes you can run the Netflix React App using the following command from your terminal:
 
 ```
 # Run the app
