@@ -1,12 +1,12 @@
-import React from 'react';
-import logo from './logo.svg';
+import React from "react";
+import "./HeaderStyles.css";
 
 function Logo({ children, ...restProps }) {
   return (
     <div>
-      <a href="./#/" {...restProps}>
+      <a href="/" {...restProps}>
         {children}
-        <img className="logo" src={logo} alt="logo" />
+        <img className="logo" src="./images/misc/logo.svg" alt="Netflix logo" />
       </a>
     </div>
   );

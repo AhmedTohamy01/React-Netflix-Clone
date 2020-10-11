@@ -1,4 +1,5 @@
 import React from 'react';
+import "./SignFormStyles.css";
 
 function SignFormTitle({ children, ...restProps }) {
   return (

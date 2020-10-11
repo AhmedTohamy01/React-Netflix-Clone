@@ -1,4 +1,5 @@
 import React from 'react';
+import "./HeaderStyles.css";
 
 function HeaderWrapper({ children, ...restProps }) {
   return (

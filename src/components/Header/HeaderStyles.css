@@ -1,0 +1,89 @@
+/* ############### Header Section ############### */
+
+.header-wrapper-home {
+  background: url("/images/misc/home-bg.jpg");
+  background-position: top left;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 30px 50px;
+}
+
+.header-wrapper-browse {
+  background: url("/images/misc/joker1.jpg");
+  background-position: center top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 30px 50px;
+}
+
+@media (max-width: 550px) {
+  .header-wrapper-home,
+  .header-wrapper-browse {
+    padding: 15px 20px;
+  }
+}
+
+.navbar-home,
+.navbar-signin {
+  max-width: 1850px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 175px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.navbar-signin {
+  margin-bottom: 75px;
+}
+
+@media (max-width: 550px) {
+  .navbar-home,
+  .navbar-signin {
+    margin-bottom: 100px;
+  }
+}
+
+.navbar-browse {
+  max-width: 1850px;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 175px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.logo {
+  height: 32px;
+  width: 108px;
+}
+
+.signin-button {
+  display: block;
+  background-color: #e50914;
+  width: 84px;
+  height: fit-content;
+  color: #fff;
+  border: 0;
+  font-size: 15px;
+  border-radius: 3px;
+  padding: 8px 17px;
+  cursor: pointer;
+}
+
+.header-link,
+.header-link-bold {
+  padding: 5px;
+}
+
+.header-link a {
+  color: #fff;
+  margin-left: 25px;
+  cursor: pointer;
+}
+
+.header-link-bold {
+  font-weight: bolder;
+}

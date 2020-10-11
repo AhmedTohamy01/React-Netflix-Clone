@@ -1,5 +1,6 @@
 import React, { useContext } from 'react';
 import AccordionContext from './AccordionContext';
+import "./AccordionStyles.css";
 
 function AccordionHeader({ children, ...restProps }) {
   const [AccordionShow, setAccordionShow] = useContext(AccordionContext);

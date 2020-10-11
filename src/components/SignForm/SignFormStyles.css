@@ -1,0 +1,97 @@
+/* ############### SignForm Section ############### */
+
+.sign-form-wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 570px;
+  background-color: rgba(0, 0, 0, 0.75);
+  border-radius: 5px;
+  width: 100%;
+  margin: auto;
+  max-width: 450px;
+  padding: 60px 68px 40px;
+  margin-bottom: 100px;
+}
+
+@media (max-width: 550px) {
+  .sign-form-wrapper {
+    padding: 40px 20px 40px;
+    min-height: 500px;
+  }
+}
+
+.sign-form-title {
+  color: #fff;
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 28px;
+}
+
+.sign-form-error {
+  background: #e87c03;
+  border-radius: 4px;
+  font-size: 14px;
+  margin: 0 0 16px;
+  color: white;
+  padding: 15px 20px;
+}
+
+.sign-form-base {
+  display: flex;
+  flex-direction: column;
+  max-width: 450px;
+  width: 100%;
+}
+
+.sign-form-input {
+  background: #333;
+  border-radius: 4px;
+  border: 0;
+  color: #fff;
+  height: 50px;
+  line-height: 50px;
+  padding: 5px 20px;
+  margin-bottom: 20px;
+}
+
+.sign-form-Button {
+  background: #e50914;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: bold;
+  margin: 0 0 12px;
+  padding: 16px;
+  border: 0;
+  color: white;
+  cursor: pointer;
+}
+
+.sign-form-Button:disabled {
+  opacity: 0.3;
+}
+
+.sign-form-text {
+  color: #8c8c8c;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.sign-form-link {
+  color: #fff;
+  text-decoration: none;
+  margin-right: 30px;
+  cursor: pointer;
+  text-decoration: none;
+  margin-left: 5px;
+}
+
+.sign-form-link:hover {
+  text-decoration: underline;
+}
+
+.sign-form-captcha {
+  margin-top: 10px;
+  font-size: 13px;
+  line-height: normal;
+  color: #8c8c8c;
+}

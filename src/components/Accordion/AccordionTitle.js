@@ -1,4 +1,5 @@
 import React from 'react';
+import "./AccordionStyles.css";
 
 function AccordionTitle({ children, ...restProps }) {
   return (

@@ -1,4 +1,5 @@
 import React from 'react';
+import "./OptFormStyles.css";
 
 function optFormText({ children, ...restProps }) {
   return (

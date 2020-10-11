@@ -1,0 +1,54 @@
+/* ############### Footer Section ############### */
+
+.footer-wrapper {
+  max-width: 1000px;
+  margin: auto;
+  padding: 70px 56px;
+}
+
+.footer-title {
+  font-size: 16px;
+  color: #757575;
+  margin-bottom: 50px;
+}
+
+@media (max-width: 740px) {
+  .footer-wrapper {
+    padding: 70px 30px;
+  }
+}
+
+@media (max-width: 500px) {
+  .footer-wrapper {
+    padding: 70px 15px;
+  }
+}
+
+.footer-row {
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+@media (max-width: 740px) {
+  .footer-row {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@media (max-width: 500px) {
+  .footer-row {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.footer-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-link {
+  color: #757575;
+  margin-bottom: 20px;
+  font-size: 13px;
+}

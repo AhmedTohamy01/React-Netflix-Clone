@@ -1,4 +1,5 @@
 import React from 'react';
+import "./MoviesStyles.css";
 
 function CardFeatureClose({ children, ...restProps }) {
   return (

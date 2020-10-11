@@ -1,0 +1,112 @@
+/* ############### Movies Section ############### */
+
+.all-slides-wrapper {
+  padding: 30px 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.slide-wrapper {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 50px;
+}
+
+.slide-title {
+  font-size: 24px;
+  color: #e5e5e5;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 650px) {
+  .slide-title {
+    text-align: center;
+  }
+}
+
+.all-cards-wrapper {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+}
+
+@media (max-width: 650px) {
+  .all-cards-wrapper {
+    flex-direction: column;
+  }
+}
+
+.card-wrapper:hover {
+  transform: scale(1.25);
+}
+
+.card-image {
+  border: 0;
+  width: 100%;
+  max-width: 305px;
+  cursor: pointer;
+  height: auto;
+  padding: 0 5px;
+}
+
+.card-feature-wrapper {
+  background-size: contain;
+  position: relative;
+  height: 360px;
+  background-position-x: right;
+  background-repeat: no-repeat;
+  background-color: black;
+  padding-top: 30px;
+}
+
+.card-title {
+  color: white;
+  max-width: 640px;
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+
+.card-description {
+  color: white;
+  max-width: 500px;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.card-feature-close {
+  color: white;
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  cursor: pointer;
+  background-color: transparent;
+  border: 0;
+  outline: none;
+}
+
+.card-feature-close img {
+  filter: brightness(0) invert(1);
+  width: 24px;
+}
+
+.player-video {
+  position: relative;
+  width: 100%;
+  max-width: 800px;
+  margin: auto;
+}
+
+.player-overlay {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+}

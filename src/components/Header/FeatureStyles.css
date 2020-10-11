@@ -1,0 +1,73 @@
+/* ############### Feature Section ############### */
+
+.feature-wrapper-home {
+  text-align: center;
+}
+
+.feature-title-home,
+.feature-title-browse {
+  color: white;
+  max-width: 640px;
+  font-size: 50px;
+  font-weight: 700;
+  margin: auto;
+}
+
+.feature-title-browse {
+  margin: initial;
+  line-height: normal;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.45);
+  margin-bottom: 20px;
+}
+
+@media (max-width: 550px) {
+  .feature-title-home,
+  .feature-title-browse {
+    font-size: 30px;
+  }
+}
+
+.feature-subtitle-home,
+.feature-subtitle-browse {
+  color: white;
+  font-size: 26px;
+  font-weight: normal;
+  margin: 16px auto;
+}
+
+.feature-subtitle-browse {
+  max-width: 640px;
+  margin: initial;
+  font-size: 22px;
+  line-height: normal;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.45);
+}
+
+@media (max-width: 550px) {
+  .feature-subtitle-home,
+  .feature-subtitle-browse {
+    font-size: 18px;
+  }
+}
+
+.play-button {
+  box-shadow: 0 0.6vw 1vw -0.4vw rgba(0, 0, 0, 0.35);
+  background-color: #e6e6e6;
+  border-width: 0;
+  padding: 10px 35px;
+  border-radius: 5px;
+  max-width: 130px;
+  font-size: 20px;
+  margin-top: 25px;
+  cursor: pointer;
+  text-align: center;
+  color: #000;
+  transition: 0.4s ease;
+  margin-bottom: 200px;
+  outline: 0;
+}
+
+.play-button:hover {
+  background: #ff1e1e;
+  color: white;
+}

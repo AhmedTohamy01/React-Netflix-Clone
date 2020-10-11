@@ -1,4 +1,5 @@
 import React from 'react';
+import "./AccordionStyles.css";
 
 function AccordionWrapper({ children, ...restProps }) {
   return (

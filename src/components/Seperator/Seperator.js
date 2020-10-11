@@ -1,4 +1,5 @@
 import React from 'react';
+import "./SeperatorStyles.css";
 
 function Seperator({ children, ...restProps }) {
   return (

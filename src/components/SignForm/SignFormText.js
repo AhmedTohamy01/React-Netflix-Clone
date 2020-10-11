@@ -1,4 +1,5 @@
 import React from 'react';
+import "./SignFormStyles.css";
 
 function SignFormText({ children, ...restProps }) {
   return (

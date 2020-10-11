@@ -1,4 +1,5 @@
 import React from 'react';
+import "./MoviesStyles.css";
 
 function CardFeatureWrapper({ children, ...restProps }) {
   return (

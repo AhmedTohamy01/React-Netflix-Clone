@@ -1,4 +1,5 @@
 import React from 'react';
+import "./FeatureStyles.css";
 
 function FeatureWrapper({ children, ...restProps }) {
   return (
