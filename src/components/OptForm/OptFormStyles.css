@@ -38,6 +38,10 @@
   align-items: center;
 }
 
+.optform-button a {
+  color: white;
+}
+
 @media (max-width: 950px) {
   .optform-button {
     height: 50px;
