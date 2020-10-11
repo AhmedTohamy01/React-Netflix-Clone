@@ -26,7 +26,16 @@
     "no-unused-vars": "off",
     "import/prefer-default-export": "off",
     "jsx-a11y/media-has-caption": "off",
-    "no-console": "off"
+    "no-console": "off",
+    "linebreak-style": "off",
+    "quotes": "off",
+    "arrow-parens": "off",
+    "function-paren-newline": "off",
+    "comma-dangle": "off",
+    "implicit-arrow-linebreak": "off",
+    "no-bitwise": "off",
+    "operator-linebreak": "off",
+    "indent": "off"
   },
   "ignorePatterns": [
     "dist/",
