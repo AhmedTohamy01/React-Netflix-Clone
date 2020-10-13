@@ -15,13 +15,13 @@ function AccordionHeader({ children, ...restProps }) {
       {AccordionShow ? (
         <img
           className="accordion-image"
-          src="../images/icons/close-slim.png"
+          src="../images/icons/close-slim.webp"
           alt="Close"
         />
       ) : (
         <img
           className="accordion-image"
-          src="../images/icons/add.png"
+          src="../images/icons/add.webp"
           alt="Open"
         />
       )}

@@ -125,7 +125,7 @@ function BrowsePage() {
                       setShowCardFeature(true);
                       setActiveItem(cardItem);
                     }}
-                    src={`../images/${category}/${cardItem.genre}/${cardItem.slug}/small.jpg`}
+                    src={`../images/${category}/${cardItem.genre}/${cardItem.slug}/small.webp`}
                   />
                 </CardWrapper>
               ))}
@@ -134,7 +134,7 @@ function BrowsePage() {
             slideItem.title.toLowerCase() === activeItem.genre ? (
               <CardFeatureWrapper
                 style={{
-                  backgroundImage: `url(../images/${category}/${activeItem.genre}/${activeItem.slug}/large.jpg)`,
+                  backgroundImage: `url(../images/${category}/${activeItem.genre}/${activeItem.slug}/large.webp)`,
                 }}
               >
                 <CardTitle>{activeItem.title}</CardTitle>

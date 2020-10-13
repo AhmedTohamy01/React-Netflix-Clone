@@ -1,7 +1,7 @@
 /* ############### Header Section ############### */
 
 .header-wrapper-home {
-  background: url("/images/misc/home-bg.jpg");
+  background: url("/images/misc/home-bg.webp");
   background-position: top left;
   background-size: cover;
   background-repeat: no-repeat;
@@ -9,7 +9,7 @@
 }
 
 .header-wrapper-browse {
-  background: url("/images/misc/joker1.jpg");
+  background: url("/images/misc/joker1.webp");
   background-position: center top;
   background-size: cover;
   background-repeat: no-repeat;
