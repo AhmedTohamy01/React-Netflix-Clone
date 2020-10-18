@@ -8,7 +8,7 @@ function optFormButton({ children, ...restProps }) {
         {children}
         <img
           className="optform-button-image"
-          src="../images/icons/chevron-right.webp"
+          src="../images/icons/chevron-right.png"
           alt="Try Now"
         />
       </a>
