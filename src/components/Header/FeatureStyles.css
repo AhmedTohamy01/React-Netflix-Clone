@@ -35,6 +35,16 @@
   margin: 16px auto;
 }
 
+.warning {
+  color: white;
+  font-size: 26px;
+  font-weight: normal;
+  margin: 16px auto;
+  border: solid red;
+  width: fit-content;
+  padding: 10px;
+}
+
 .feature-subtitle-browse {
   max-width: 640px;
   margin: initial;

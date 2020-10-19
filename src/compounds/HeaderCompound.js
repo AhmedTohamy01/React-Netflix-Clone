@@ -5,7 +5,7 @@ import Logo from "../components/Header/Logo";
 import SigninButton from "../components/Header/SigninButton";
 import FeatureWrapper from "../components/Header/FeatureWrapper";
 import FeatureTitle from "../components/Header/FeatureTitle";
-import FeatureSubTitle from "../components/Header/FeatureSubTitle";
+import Warning from "../components/Header/Warning";
 
 function HeaderCompound({ children }) {
   return (
@@ -18,9 +18,9 @@ function HeaderCompound({ children }) {
         <FeatureTitle className="feature-title-home">
           Unlimited movies, TV shows and more.
         </FeatureTitle>
-        <FeatureSubTitle className="feature-subtitle-home">
-          Watch anywhere. Cancel at any time.
-        </FeatureSubTitle>
+        <Warning>
+          This is NOT official Netflix
+        </Warning>
       </FeatureWrapper>
       {children}
     </HeaderWrapper>
