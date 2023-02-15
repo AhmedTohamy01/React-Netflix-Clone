@@ -21,7 +21,6 @@
 - [Live Demo](#live-demo)
 - [Technology Used](#technology-used)
 - [How To Use](#how-to-use)
-- [Author](#author)
 - [Show Your Support](#show-your-support)
 - [Acknowledgments](#acknowledgments)
 - [License](#license)
@@ -309,13 +308,6 @@ npm start
 9) Now you can see the project in your browser as you see in the live demo link. 
 Happy Hacking!
 
-
-# Author
-
-👤 **Ahmed Tohamy**
-- Github: https://github.com/AhmedTohamy01
-- Linkedin: https://www.linkedin.com/in/ATohamy
-- Email: Ahmed-Tohamy@outlook.com
 
 # Show Your Support
 
